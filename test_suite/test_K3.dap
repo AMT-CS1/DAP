@@ -1,0 +1,14 @@
+program K3
+kamus
+    a, b : integer
+    hasil : boolean
+algoritma
+    a <- 5
+    b <- 10
+    if a > 0 AND b > 0 then
+        hasil <- true
+    else
+        hasil <- false
+    endif
+    output(hasil)
+endprogram

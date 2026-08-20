@@ -1,0 +1,37 @@
+program kalkulator_pecahan
+kamus
+    a, b, c, d : integer
+    addition, subtraction, multiplication, division : integer
+    y : integer
+algoritma
+    input(a, b, c, d)
+
+    addition <- a * d + b * c
+    subtraction <- a * d - b * c
+    multiplication <- a * c
+    division <- a * d
+
+    output("addition:")
+    y <- b * d
+    output(addition)
+    output("/")
+    output(y)
+
+    output("subtraction:")
+    y <- b * d
+    output(subtraction)
+    output("/")
+    output(y)
+
+    output("multiplication:")
+    y <- b * d
+    output(multiplication)
+    output("/")
+    output(y)
+
+    output("division:")
+    y <- b * c
+    output(division)
+    output("/")
+    output(y)
+endprogram

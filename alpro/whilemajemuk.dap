@@ -1,0 +1,20 @@
+program whilemajemuk
+kamus
+    a, b, c : boolean
+    i, j, k : integer
+algoritma
+    a <- true
+    b <- false
+    c <- true
+    i <- 1
+    j <- 2
+    k <- 3
+
+    while a and !b and c do
+        i <- i + 1
+        output("masuk")
+        if i == 10 then
+            c <- false
+        endif
+    endwhile
+endprogram

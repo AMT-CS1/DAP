@@ -1,0 +1,27 @@
+program Discount
+dictionary
+    x, digit1, digit23, digit3, digit4 : integer
+	diskon, cashback, voucher : boolean
+algorithm
+
+	read(x) // misal 4321
+
+	digit1 = x div 1000      // digit pertama, misal 4321 / 1000 --> 4
+	digit23 = x div 10 mod 100 // dua digit di tengah, misal 4321 / 10 % 100 --> 32
+	digit3 = x div 10 mod 10   // digit ketiga, misal 4321 / 10 % 10 --> 2
+	digit4 = x mod 10        // digit keempat, misal 4321 % 10 --> 1
+	write( digit1, digit23, digit3, digit4 )
+	
+	diskon = digit23 mod 2 == 0
+	// diskon true, jika dua digit di tengah genap, misalkan 32 % 2 == 0 --> true
+	// catatan: menentukan bilangan genap pada 2 digit tengah bisa saja dengan menghitung digit3 % 2 == 0
+
+	cashback = digit4 != 0 and ((digit1+digit3)mod digit4 == 0 and digit4 != 0)
+	// cashback true, jika penjumlahan digit ke-1 dan ke-3 adalah kelipatan digit ke-4
+	// catatan: karena digit ke-4 bisa saja angka nol, maka buat syarat digit4 != 0 agar tidak error
+
+	voucher = (diskon and not cashback) or (not diskon and cashback)
+	// voucher true, jika hanya memperoleh diskon saja atau cashback saja
+
+	write(diskon, cashback, voucher)
+endprogram

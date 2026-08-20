@@ -1,0 +1,6 @@
+program N5
+kamus
+    flag : boolean <- true
+algoritma
+    output(flag)
+endprogram

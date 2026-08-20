@@ -1,0 +1,21 @@
+program count
+dictionary
+    i, n : integer  // deklarasi variabel
+algorithm
+    read n
+    i <- n >> 1
+    write i
+    i <- n << 2 - 1
+    write i
+    i <- n & 12
+    write i
+    i <- n | 10
+    write i
+    i <- n ^ 15
+    write i
+    if( i > (n + 1)) then
+        write "ok"
+    else
+        write "other"
+    endif
+endprogram

@@ -1,0 +1,19 @@
+program countPlusMinus
+kamus
+    angka : integer
+    negatif, positif : integer
+algoritma
+    negatif <- 0
+    positif <- 0
+    input(angka)
+    while angka != 0 do
+        if angka > 0 then
+            positif <- positif + 1
+        else
+            negatif <- negatif + 1
+        endif
+        input(angka)
+    endwhile
+    output(positif)
+    output(negatif)
+endprogram

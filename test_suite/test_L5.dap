@@ -1,0 +1,12 @@
+program L5
+kamus
+    x : integer
+algoritma
+    x <- 2
+    case x of
+    1 :
+        output(100)
+    2 :
+        output(200)
+    end case
+endprogram

@@ -1,0 +1,12 @@
+Program INT1
+Kamus
+    const BATAS : integer = 3
+    a, b, c : integer
+    hasil : boolean
+Algoritma
+    a <- 1
+    b <- 2
+    c <- 3
+    hasil <- (a < b) AND (b < c) AND (c == BATAS)
+    OUTPUT(hasil)
+EndProgram

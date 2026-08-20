@@ -1,0 +1,7 @@
+program INT2
+kamus
+    x : integer <- 10
+    x : integer
+algoritma
+    output(x)
+endprogram

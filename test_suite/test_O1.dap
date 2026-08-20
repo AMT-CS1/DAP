@@ -1,0 +1,10 @@
+program O1
+kamus
+    x, i : integer
+algoritma
+    i <- 0
+    repeat
+        output(x)
+        i <- i+1
+    until i >= 3
+endprogram

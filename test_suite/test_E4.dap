@@ -1,0 +1,10 @@
+program E4
+kamus
+    a, b, c, hasil : integer
+algoritma
+    a <- 15
+    b <- 9
+    c <- 6
+    hasil <- a & b & c
+    output(hasil)
+endprogram

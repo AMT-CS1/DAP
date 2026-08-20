@@ -1,0 +1,16 @@
+program LebihBesarDariSebelumnya
+kamus
+    curr, perv : integer
+    i, n : integer
+    count : integer
+algoritma
+    input(n)
+    for i <- 1 to n do
+        input(curr)
+        if i != 1 and perv > curr then
+            count <- count + 1
+        endif
+        perv <- curr
+    endfor
+    output(count)
+endprogram

@@ -1,0 +1,8 @@
+program Karakter
+dictionary
+    a, b, c : character
+algorithm
+    read(a, b)
+    c = a - 32
+    write(a, b, a<b, c)
+endprogram

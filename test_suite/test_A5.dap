@@ -1,0 +1,6 @@
+program A5
+kamus
+    const OK : boolean = 5
+algoritma
+    output(OK)
+endprogram

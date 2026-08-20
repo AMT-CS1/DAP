@@ -1,0 +1,11 @@
+program J1
+kamus
+    n, r : integer
+algoritma
+    input(n)
+    r <- 0
+    while r*r <= n do
+        r<-r+1
+    endwhile
+    output(r-1)
+endprogram

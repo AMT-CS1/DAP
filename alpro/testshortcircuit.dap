@@ -1,0 +1,18 @@
+program belanja
+kamus
+    x : integer
+    d1, d2, d3, d4 : integer
+    diskon, cashback, voucher : boolean
+algoritma
+    input(x)
+    d1 <- x div 1000
+    d2 <- x div 100 mod 10
+    d3 <- x div 10 mod 10
+    d4 <- x mod 10
+    diskon <- d3 mod 2 == 0
+    cashback <- d4 != 0 and (d1 + d3) mod d4 == 0
+    voucher <- (diskon and !cashback) or (!diskon and cashback)
+    output(diskon)
+    output(cashback)
+    output(voucher)
+endprogram

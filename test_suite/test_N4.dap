@@ -1,0 +1,6 @@
+program N4
+kamus
+    x : integer <- 7.9
+algoritma
+    output(x)
+endprogram

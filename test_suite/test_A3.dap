@@ -1,0 +1,6 @@
+program A3
+kamus
+    const N : integer = 5
+algoritma
+    output(N)
+endprogram

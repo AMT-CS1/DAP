@@ -1,0 +1,14 @@
+program Q2
+kamus
+    x : integer
+algoritma
+    x <- 9
+    case x of
+    1 :
+        output(100)
+    2 :
+        output(200)
+    otherwise :
+        output(999)
+    endcase
+endprogram

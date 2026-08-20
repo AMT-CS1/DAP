@@ -1,0 +1,6 @@
+program N1
+kamus
+    total : integer <- 9000
+algoritma
+    output(total)
+endprogram

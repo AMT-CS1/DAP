@@ -1,0 +1,17 @@
+program INT3
+kamus
+    nilai : integer
+    grade : character
+algoritma
+    nilai <- 75
+    if nilai >= 90 THEN
+        grade <- 'A'
+    else if nilai >= 80 AND nilai < 90 then
+        grade <- 'B'
+    else if nilai >= 70 and nilai < 80 then
+        grade <- 'C'
+    else
+        grade <- 'D'
+    endif
+    output(grade)
+endprogram

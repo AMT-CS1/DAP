@@ -1,0 +1,7 @@
+program B9
+kamus
+    y : real
+algoritma
+    y <- 7 mod 2.0
+    output(y)
+endprogram

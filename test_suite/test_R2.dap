@@ -1,0 +1,13 @@
+program R2
+kamus
+    a, b, c, d : integer
+algoritma
+    a <- 1
+    b <- 2
+    c <- 3
+    d <- 4
+    while (a != b && (a != c) && (a != d)) do
+        output(a)
+        a <- a+1
+    endwhile
+endprogram

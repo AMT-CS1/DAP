@@ -1,0 +1,12 @@
+program dadujika
+kamus
+    a, b, c : integer
+    count : integer
+algoritma
+    count <- 0
+    repeat
+        input(a, b, c)
+        count <- count + 1 * (a mod 2) * (b mod 2) * (c mod 2)
+    until a + b + c == 10
+    output(count)
+endprogram

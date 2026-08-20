@@ -1,0 +1,9 @@
+program E2
+kamus
+    d1, d2, d3, d4 : integer
+    hasil : boolean
+algoritma
+    input(d1, d2, d3, d4)
+    hasil <- (d1<d2) and (d2<d3) and (d3<d4)
+    output(hasil)
+endprogram

@@ -1,0 +1,7 @@
+program K6
+kamus
+    jumlahTotal : integer
+algoritma
+    jumlahTotal <- 100
+    output(jumlahTotal)
+endprogram

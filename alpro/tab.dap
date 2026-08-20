@@ -1,0 +1,10 @@
+program abc
+deklarasi
+	i, n : integer
+algoritma
+	read(n)
+	for i:=1 to n do
+		print(i)
+	endfor
+endprogram
+

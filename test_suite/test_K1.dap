@@ -1,0 +1,7 @@
+Program K1
+Kamus
+    x : integer
+Algoritma
+    x <- 5
+    output(x)
+EndProgram

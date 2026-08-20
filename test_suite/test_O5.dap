@@ -1,0 +1,8 @@
+program O5
+kamus
+    a, b : integer
+algoritma
+    a <- 7
+    b <- 0
+    output(a mod b)
+endprogram

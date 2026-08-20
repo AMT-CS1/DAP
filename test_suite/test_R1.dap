@@ -1,0 +1,14 @@
+program R1
+kamus
+    clo1, clo2, clo3 : integer
+algoritma
+    clo1 <- 2
+    clo2 <- 2
+    clo3 <- 2
+    while clo1>=0 && clo2>=0 && clo3>=0 do
+        output(clo1)
+        clo1 <- clo1-1
+        clo2 <- clo2-1
+        clo3 <- clo3-1
+    endwhile
+endprogram

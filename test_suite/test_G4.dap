@@ -1,0 +1,9 @@
+program G4
+kamus
+    x : integer
+algoritma
+    x <- 1
+    case x of
+        1 : output(100)
+        2 : output(200)
+endprogram

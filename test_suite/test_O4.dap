@@ -1,0 +1,8 @@
+program O4
+kamus
+    a, b : integer
+algoritma
+    a <- 5
+    b <- 0
+    output(a div b)
+endprogram

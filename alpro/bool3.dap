@@ -1,0 +1,9 @@
+program count
+dictionary
+    a,b,c,d : real
+    const E = 0.5
+algorithm
+    read a,b,c,d
+//    print( (a > b and b < c) or not (c > d and d == a) )
+    print( (a > b && b < c) || ! (c > d && d == a) )
+endprogram

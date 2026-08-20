@@ -1,0 +1,7 @@
+program O6
+kamus
+    x : real
+algoritma
+    x <- 5.0 / 0.0
+    output(x)
+endprogram

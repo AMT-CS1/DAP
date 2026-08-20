@@ -1,0 +1,11 @@
+program INT4
+kamus
+    i, j : integer
+algoritma
+    i <- 0
+    while i < 2 do
+        for j <- 1 to 3 do
+            output(j)
+        i <- i+1
+    endwhile
+endprogram

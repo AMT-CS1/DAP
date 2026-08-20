@@ -1,0 +1,7 @@
+program C1
+kamus
+    x : integer
+algoritma
+    x <- 3 / 4
+    output(x)
+endprogram

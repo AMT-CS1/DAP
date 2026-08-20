@@ -1,0 +1,9 @@
+program E3
+kamus
+    n : integer
+    hasil : boolean
+algoritma
+    input(n)
+    hasil <- (n==1) or (n==2) or (n==3) or (n==4) or (n==5)
+    output(hasil)
+endprogram

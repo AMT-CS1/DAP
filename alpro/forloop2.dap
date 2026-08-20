@@ -1,0 +1,16 @@
+program count
+dictionary
+    i, n, x : integer  // deklarasi variabel
+    y, y2 : real
+algorithm
+    read n
+    y = n
+    y2 = n
+    for x = 1 to n do
+        for i = 1 to 20 do
+            y = (y + x/(y*y))/2
+            y2 = (y2 + x/y2) / 2
+        endfor
+        print(x, y, y2, y2/y, y2*y)
+    endfor
+endprogram

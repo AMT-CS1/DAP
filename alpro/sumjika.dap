@@ -1,0 +1,15 @@
+program tambahjika
+kamus
+    a, b : integer
+    sum : integer
+algoritma
+    sum <- 0
+    input(a, b)
+    while a != 0 and b != 0 do
+        if a mod 2 == 1 and b mod 2 == 0 then
+            sum <- sum + a + b
+        endif
+        input(a, b)
+    endwhile
+    output(sum)
+endprogram

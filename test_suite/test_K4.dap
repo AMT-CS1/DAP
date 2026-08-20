@@ -1,0 +1,7 @@
+program K4
+kamus
+    x : integer
+algoritma
+    INPUT(x)
+    OUTPUT(x)
+endprogram

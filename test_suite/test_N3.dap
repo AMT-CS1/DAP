@@ -1,0 +1,6 @@
+program N3
+kamus
+    x : real <- 5
+algoritma
+    output(x)
+endprogram

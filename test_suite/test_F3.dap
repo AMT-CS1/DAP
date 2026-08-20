@@ -1,0 +1,13 @@
+program F3
+kamus
+    x : integer
+algoritma
+    x <- -5
+    if x>0 then
+        output(1)
+    else if x<0 then
+        output(-1)
+    else
+        output(0)
+    endif
+endprogram

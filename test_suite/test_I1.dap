@@ -1,0 +1,10 @@
+program I1
+kamus
+    const pi : real = 3.14
+    r : real
+    volume : real
+algoritma
+    input(r)
+    volume <- (4.0/3.0) * pi * r * r * r
+    output(volume)
+endprogram

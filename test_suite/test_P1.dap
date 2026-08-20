@@ -1,0 +1,7 @@
+program P1
+kamus
+    n : integer
+    n : real
+algoritma
+    output(n)
+endprogram

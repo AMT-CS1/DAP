@@ -1,0 +1,13 @@
+program DigitMenaik
+kamus
+    bilangan, d1, d2, d3, d4 : integer
+    menaik : boolean
+algoritma
+    input(bilangan)
+    d1 <- bilangan div 1000
+    d2 <- bilangan div 100 mod 10
+    d3 <- bilangan div 10 mod 10
+    d4 <- bilangan mod 10
+    menaik <- (d1 < d2) and (d2 < d3) and (d3 < d4)
+    output(menaik)
+endprogram

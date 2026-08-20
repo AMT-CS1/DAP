@@ -1,0 +1,13 @@
+program EstimatePi
+kamus
+  circle, square, i, n : integer
+  piEstimate : real
+algoritma
+  input(n)
+  piEstimate <- 0
+  for i <- 1 to n do
+    input(circle, square)
+    piEstimate <- piEstimate + 4 * circle / square
+  endfor
+  output(piEstimate / n)
+endprogram

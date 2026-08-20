@@ -1,0 +1,16 @@
+program RidingTime
+kamus
+    n, waktu, totalWaktu, i : integer
+    rataRata : real
+algoritma
+    input(n)
+    totalWaktu <- 0
+    for i <- 1 to n do
+        input(waktu)
+        totalWaktu <- totalWaktu + waktu
+    endfor
+    rataRata <- totalWaktu / n
+    output(n)
+    output(totalWaktu)
+    output(rataRata)
+endprogram

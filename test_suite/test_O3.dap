@@ -1,0 +1,7 @@
+program O3
+kamus
+    x : integer
+algoritma
+    x <- 7 mod 0
+    output(x)
+endprogram

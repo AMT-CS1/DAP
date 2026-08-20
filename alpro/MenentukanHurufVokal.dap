@@ -1,0 +1,9 @@
+program HurufVokal
+kamus
+    huruf : char
+    vokal : boolean
+algoritma
+    input(huruf)
+    vokal <- (huruf == 'a') or (huruf == 'i') or (huruf == 'u') or (huruf == 'e') or (huruf == 'o')
+    output(vokal)
+endprogram

@@ -1,0 +1,9 @@
+program J4
+kamus
+    a, b, x : integer
+algoritma
+    a <- 10
+    b <- 3
+    x <- a-b
+    output(x)
+endprogram

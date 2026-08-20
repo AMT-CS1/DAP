@@ -1,0 +1,30 @@
+program tes_div_slash_valid
+kamus
+    a : integer
+    b : real
+    hasil_int : integer
+    hasil_real : real
+algoritma
+    a <- 7
+    b <- 7.5
+
+    // 1. int div int -> int (VALID)
+    hasil_int <- a div 2
+    tulis("7 div 2 =", hasil_int)
+
+    // 5. int / int -> riil (VALID, otomatis real)
+    hasil_real <- a / 2
+    tulis("7 / 2 =", hasil_real)
+
+    // 6. riil / int -> riil (VALID)
+    hasil_real <- b / 2
+    tulis("7.5 / 2 =", hasil_real)
+
+    // 7. int / riil -> riil (VALID)
+    hasil_real <- a / 2.5
+    tulis("7 / 2.5 =", hasil_real)
+
+    // 8. riil / riil -> riil (VALID)
+    hasil_real <- b / 2.5
+    tulis("7.5 / 7.5 =", hasil_real)
+endprogram

@@ -1,0 +1,15 @@
+program countVocal
+kamus
+    c : character
+    count : integer
+algoritma
+    count <- 0
+    input(c)
+    while c != '.' do
+        if c == 'a' or c == 'i' or c == 'u' or c == 'e' or c == 'o' then
+            count <- count + 1
+        endif
+        input(c)
+    endwhile
+    output(count)
+endprogram

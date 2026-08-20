@@ -1,0 +1,8 @@
+program G3
+kamus
+    x : integer
+algoritma
+    x <- 1
+    if x > 0 then
+        output(x)
+endprogram

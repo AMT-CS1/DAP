@@ -1,0 +1,18 @@
+program lastminimum
+kamus
+    x : integer
+    min : integer
+algoritma
+    input(x)
+    min <- x
+    while x != 0 do
+        if x < min then
+            min <- x
+        endif
+        input(x)
+    endwhile
+    if min < 0 then
+        min <- min * -1
+    endif
+    output(min mod 10)
+endprogram

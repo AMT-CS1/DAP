@@ -1,0 +1,18 @@
+program INT5
+kamus
+    const KKM : real = 75.0
+    nilai : real
+    status : character
+algoritma
+    input(nilai)
+    if nilai >= 90.0 then
+        status <- 'A'
+    else if nilai >= 80.0 then
+        status <- 'B'
+    else if nilai >= KKM then
+        status <- 'C'
+    else
+        status <- 'D'
+    endif
+    output(status)
+endprogram

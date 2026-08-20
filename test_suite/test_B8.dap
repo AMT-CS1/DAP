@@ -1,0 +1,7 @@
+program B8
+kamus
+    x : integer
+algoritma
+    x <- 7 mod 2
+    output(x)
+endprogram

@@ -1,0 +1,5 @@
+program H1
+kamus
+algoritma
+    output(42)
+endprogram

@@ -1,0 +1,12 @@
+program Tanker
+dictionary
+    tanki, ember, jumlah : integer
+algorithm
+    read(tanki)
+    jumlah = 0
+    repeat
+        read(ember)
+        jumlah = jumlah + ember
+        print(jumlah >= tanki)
+    until jumlah >= tanki
+endprogram

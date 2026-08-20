@@ -1,0 +1,8 @@
+program L1
+kamus
+    i : integer
+algoritma
+    for i <- 1 to 3 do
+        output(i)
+    end for
+endprogram

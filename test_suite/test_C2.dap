@@ -1,0 +1,7 @@
+program C2
+kamus
+    y : real
+algoritma
+    y <- 3 div 4
+    output(y)
+endprogram

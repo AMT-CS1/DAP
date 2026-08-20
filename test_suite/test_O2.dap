@@ -1,0 +1,7 @@
+program O2
+kamus
+    x : integer
+algoritma
+    x <- 5 div 0
+    output(x)
+endprogram

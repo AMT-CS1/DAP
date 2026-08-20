@@ -1,0 +1,11 @@
+program M1
+kamus
+    kode : character
+algoritma
+    kode <- 'A'
+    if kode == 'A' then
+        output(1)
+    else
+        output(0)
+    endif
+endprogram

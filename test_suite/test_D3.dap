@@ -1,0 +1,9 @@
+program D3
+kamus
+    n : integer
+    hasil : boolean
+algoritma
+    input(n)
+    hasil <- (n != 0) and (10 div n == 1)
+    output(hasil)
+endprogram

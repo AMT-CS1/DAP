@@ -1,0 +1,7 @@
+program J3
+kamus
+    x : integer
+algoritma
+    x <- -5+3
+    output(x)
+endprogram

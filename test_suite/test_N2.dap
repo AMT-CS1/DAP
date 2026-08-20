@@ -1,0 +1,8 @@
+program N2
+kamus
+    a, b, c : integer <- 5
+algoritma
+    output(a)
+    output(b)
+    output(c)
+endprogram

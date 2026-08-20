@@ -1,0 +1,7 @@
+program K5
+kamus
+    For : integer
+algoritma
+    For <- 5
+    output(For)
+endprogram

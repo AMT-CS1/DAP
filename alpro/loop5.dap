@@ -1,0 +1,26 @@
+program count
+dictionary
+    i, n, x : integer  // deklarasi variabel
+    y, yt, y2 : real
+    const DELTA = 0.000005
+algorithm
+    read n
+    y = n
+    y2 = n
+    yt = 0
+    x = 1
+    while x <= n do
+        print(x)
+        i = 1
+        // while (y2-yt > DELTA) or (yt-y2 < DELTA) do
+        repeat
+            y = (y + x/(y*y))/2
+            yt = y2
+            y2 = (yt + x/yt) / 2
+            i = i + 1
+        until i > 20
+        print(x, y, y2)
+        x = x + 1
+    endwhile
+    print(x, n)
+endprogram

@@ -1,0 +1,7 @@
+program N6
+kamus
+    x : integer
+algoritma
+    x <- 42
+    output(x)
+endprogram

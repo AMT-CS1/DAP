@@ -1,0 +1,13 @@
+program percabangan
+kamus
+    a : integer
+algoritma
+    a <- 2
+    if a == 1 then
+        output(1)
+    else if a == 2 then
+        output(2)
+    else
+        output(3)
+    endif
+endprogram

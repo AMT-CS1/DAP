@@ -1,0 +1,7 @@
+program B1
+kamus
+    x : integer
+algoritma
+    x <- 7 div 2
+    output(x)
+endprogram

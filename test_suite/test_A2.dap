@@ -1,0 +1,6 @@
+program A2
+kamus
+    const PI = 3.14
+algoritma
+    output(PI)
+endprogram

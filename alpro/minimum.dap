@@ -1,0 +1,15 @@
+program minimum
+kamus
+    x : integer
+    min : integer
+algoritma
+    input(x)
+    min <- x
+    while x != 0 do
+        input(x)
+        if (x < min) then
+            min <- x
+        endif
+    endwhile
+    output(min)
+endprogram

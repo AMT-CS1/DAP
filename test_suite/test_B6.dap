@@ -1,0 +1,7 @@
+program B6
+kamus
+    y : real
+algoritma
+    y <- 7 / 2.5
+    output(y)
+endprogram

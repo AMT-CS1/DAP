@@ -1,0 +1,20 @@
+program minimumke
+kamus
+    x, i : integer
+    min, mini : integer
+algoritma
+    i <- 1
+    input(x)
+    min <- x
+    mini <- 0
+    while x != 0 do
+        if x < min then
+            min <- x
+            mini <- i
+            output(mini)
+        endif
+        i <- i + 1
+        input(x)
+    endwhile
+    output(mini)
+endprogram

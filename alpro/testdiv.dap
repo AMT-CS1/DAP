@@ -1,0 +1,11 @@
+program testdiv
+dictionary
+    const PI : real = 22 / 7
+    x : integer
+    y : real
+algoritma
+    x <- 3 div 4
+    y <- 3 / 4
+    tulis(x, y)
+    output(PI)
+endprogram

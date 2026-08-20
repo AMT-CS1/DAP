@@ -1,0 +1,10 @@
+program P3
+kamus
+    a : integer
+    b : real
+algoritma
+    a <- 1
+    b <- 2.5
+    output(a)
+    output(b)
+endprogram

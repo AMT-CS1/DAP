@@ -1,0 +1,9 @@
+program KelilingLingkaran
+kamus
+    constant pi : real = 3.14
+    radius, keliling : real
+algoritma
+    input(radius)
+    keliling <- 2 * pi * radius
+    output(keliling)
+endprogram11

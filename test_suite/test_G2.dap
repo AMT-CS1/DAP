@@ -1,0 +1,9 @@
+program G2
+kamus
+    i : integer
+algoritma
+    i <- 0
+    while i < 3 do
+        output(i)
+        i <- i + 1
+endprogram

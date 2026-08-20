@@ -1,0 +1,11 @@
+program O7
+kamus
+    a, b, c, d : integer
+algoritma
+    a <- 17
+    b <- 5
+    c <- a div b
+    d <- a mod b
+    output(c)
+    output(d)
+endprogram

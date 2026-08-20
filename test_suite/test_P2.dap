@@ -1,0 +1,7 @@
+program P2
+kamus
+    const N : integer = 5
+    N : integer
+algoritma
+    output(N)
+endprogram

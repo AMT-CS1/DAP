@@ -1,0 +1,6 @@
+program A4
+kamus
+    const X : real = 3
+algoritma
+    output(X)
+endprogram

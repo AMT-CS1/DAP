@@ -1,0 +1,14 @@
+program Q3
+kamus
+    k : character
+algoritma
+    k <- 'b'
+    case k of
+    'a' :
+        output(1)
+    'b' :
+        output(2)
+    'c' :
+        output(3)
+    endcase
+endprogram

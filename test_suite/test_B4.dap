@@ -1,0 +1,9 @@
+program B4
+kamus
+    a : integer
+    y : real
+algoritma
+    a <- 7
+    y <- a div 2.5
+    output(y)
+endprogram

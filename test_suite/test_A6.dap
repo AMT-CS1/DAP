@@ -1,0 +1,6 @@
+program A6
+kamus
+    constant PI : real = 3.14
+algoritma
+    output(PI)
+endprogram

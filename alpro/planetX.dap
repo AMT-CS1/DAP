@@ -1,0 +1,17 @@
+program planetX
+kamus
+    x : integer
+    i : integer
+    count : integer
+algoritma
+    input(x)
+    count <- 1
+    i <- 2
+    while i <= x and count <= 3 do
+        if x mod i == 0  then
+            count <- count + 1
+        endif
+        i <- i + 1
+    endwhile
+    output(count == 3)
+endprogram
