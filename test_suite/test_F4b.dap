@@ -2,7 +2,7 @@ program F4b
 kamus
     x : integer
 algoritma
-    x <- 1
+    x <- 0
     if x>0 then
         output(1)
     else
