@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"dap/emulator"
 	"dap/parser"
 	"dap/scanner"
@@ -19,6 +20,7 @@ var (
 	dapRun      bool
 	dapCompile  bool
 	dapAssembly bool
+	showASTJSON bool
 	listenPort  string
 	dapSrcFile  string
 	dapDestFile string
@@ -36,7 +38,7 @@ It is used to study the trace and the effect of a program execution
 Use the browser to invoke the user interface.
 To store compiled codes, use file with extension .s4041
 To store assembled codes, use file with extension .i4041
-%s [-animate [-l <:port>]|-console|-run] [[-compile|-assembly] -o <destfile.ext]] <source program.dap>
+%s [-animate [-l <:port>]|-console|-run|-show-ast-json] [[-compile|-assembly] -o <destfile.ext]] <source program.dap>
 `, os.Args[0])
 	flag.PrintDefaults()
 }
@@ -49,6 +51,7 @@ func validArgs() (ok bool) {
 	flag.BoolVar(&dapAnimate, "animate", false, "Animate (instead of run) the codes")
 	flag.BoolVar(&dapAnimate, "emulate", false, "Animate (instead of run) the codes")
 	flag.BoolVar(&dapConsole, "console", false, "Run the codes using animate protocol")
+	flag.BoolVar(&showASTJSON, "show-ast-json", false, "Output AST in JSON format")
 	flag.StringVar(&listenPort, "l", ":2345", "Animate at this HTTP port")
 	flag.StringVar(&dapDestFile, "o", "", "Output of compiled (.s4041)/assembled (.i4041) codes")
 	flag.BoolVar(&dapRun, "run", false, "Run (instead of animate) the codes")
@@ -57,6 +60,13 @@ func validArgs() (ok bool) {
 	flag.Parse()
 
 	dapSrcFile = flag.Arg(0)
+	for _, arg := range os.Args[1:] {
+		if arg == "-show-ast-json" || arg == "--show-ast-json" {
+			showASTJSON = true
+		} else if len(arg) > 0 && arg[0] != '-' && dapSrcFile == "" {
+			dapSrcFile = arg
+		}
+	}
 	lSrc := len(dapSrcFile)
 	if lSrc >= 5 && dapSrcFile[lSrc-4:] == ".dap" {
 		dapSource = true
@@ -122,6 +132,24 @@ func main() {
 	if !validArgs() {
 		log.Fatal("Check command line")
 	}
+
+	if showASTJSON {
+		if !dapSource {
+			log.Fatal("AST JSON display only supports .dap source files")
+		}
+		token := scanner.NewToken(dapSrcFile)
+		astTree, err := parser.BuildAST(token)
+		if err != nil {
+			log.Fatalf("Error building AST: %v", err)
+		}
+		jsonBytes, err := json.MarshalIndent(astTree, "", "  ")
+		if err != nil {
+			log.Fatalf("Error encoding AST JSON: %v", err)
+		}
+		fmt.Println(string(jsonBytes))
+		os.Exit(0)
+	}
+
 	log.Printf("*** DAP pseudocode emulator, v. 2025.09.05")
 	if dapSource {
 		token := scanner.NewToken(dapSrcFile)
