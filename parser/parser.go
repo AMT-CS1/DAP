@@ -827,6 +827,11 @@ func assignment(lvl int) (string, int) {
 		em.GenOpCmd("$ITOR")
 		etyp = "$REAL"
 		eval = em.EMPTY
+	} else if vtyp == "$INT" && etyp == "$REAL" {
+		em.GenPush(etyp, eval)
+		em.GenOpCmd("$RTOI")
+		etyp = "$INT"
+		eval = em.EMPTY
 	} else if vtyp != etyp {
 		l, c := token.GetLineCol()
 		log.Printf("DAP.p %v:%v -- Type mismatch in assignment", l, c)
@@ -1096,7 +1101,7 @@ func case_stmt(lvl int) {
 	}
 	lfin := em.GenLabel()
 	expect("$OF", "of expected")
-	for isStartExpression() {
+	for isStartExpression() && !(token.Peek() == "$NAME" && strings.EqualFold(token.Val, "end")) {
 		em.GenLine(token.GetLineCol()) //!
 		em.GenDup()                    // make a copy of case expression, vs. label expression
 		ltyp, lval := expression()

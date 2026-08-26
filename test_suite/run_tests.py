@@ -3,7 +3,7 @@ import subprocess, os, sys, json
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SUITE = os.path.join(ROOT, "test_suite")
-EXE = os.path.join(ROOT, "dap_test.exe")
+EXE = os.path.join(ROOT, "dap.exe")
 
 os.makedirs(SUITE, exist_ok=True)
 
