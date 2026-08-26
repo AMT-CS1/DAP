@@ -9,7 +9,11 @@
     "forbid": null,
     "note": "",
     "stdout": "3.1400000\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:53 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:53 *** DAP compiling\n2026/08/26 15:12:53 *** DAP compilation successful\n2026/08/26 15:12:53 *** DAP assembling the codes\n2026/08/26 15:12:53 *** DAP executing the codes\n2026/08/26 15:12:53 DAP.e *** Stopped after 6 steps, mem=0\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 *** DAP compilation successful\n2026/08/21 22:00:20 *** DAP assembling the codes\n2026/08/21 22:00:20 *** DAP executing the codes\n2026/08/21 22:00:20 DAP.e *** Stopped after 6 steps, mem=0\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -25,7 +29,11 @@
     "forbid": null,
     "note": "",
     "stdout": "",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:53 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:53 *** DAP compiling\n2026/08/26 15:12:53 DAP.p 3:4 -- ':' and type expected after constant name\n2026/08/26 15:12:53 DAP.p 3:4 -- invalid or missing type for constant PI\n2026/08/26 15:12:53 DAP.p 4:0 -- constant PI declared as $ASSG but value is $REAL\n2026/08/26 15:12:53 *** DAP compilation error count 3\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 DAP.p 3:4 -- ':' and type expected after constant name\n2026/08/21 22:00:20 DAP.p 3:4 -- invalid or missing type for constant PI\n2026/08/21 22:00:20 DAP.p 4:0 -- constant PI declared as $ASSG but value is $REAL\n2026/08/21 22:00:20 *** DAP compilation error count 3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 1,
     "timed_out": false,
     "pass": true,
@@ -41,7 +49,11 @@
     "forbid": null,
     "note": "",
     "stdout": "5\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:53 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:53 *** DAP compiling\n2026/08/26 15:12:53 *** DAP compilation successful\n2026/08/26 15:12:53 *** DAP assembling the codes\n2026/08/26 15:12:53 *** DAP executing the codes\n2026/08/26 15:12:53 DAP.e *** Stopped after 6 steps, mem=0\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 *** DAP compilation successful\n2026/08/21 22:00:20 *** DAP assembling the codes\n2026/08/21 22:00:20 *** DAP executing the codes\n2026/08/21 22:00:20 DAP.e *** Stopped after 6 steps, mem=0\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -57,7 +69,11 @@
     "forbid": null,
     "note": "",
     "stdout": "3.0000000\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:53 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:53 *** DAP compiling\n2026/08/26 15:12:53 *** DAP compilation successful\n2026/08/26 15:12:53 *** DAP assembling the codes\n2026/08/26 15:12:53 *** DAP executing the codes\n2026/08/26 15:12:53 DAP.e *** Stopped after 6 steps, mem=0\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 *** DAP compilation successful\n2026/08/21 22:00:20 *** DAP assembling the codes\n2026/08/21 22:00:20 *** DAP executing the codes\n2026/08/21 22:00:20 DAP.e *** Stopped after 6 steps, mem=0\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -73,7 +89,11 @@
     "forbid": null,
     "note": "",
     "stdout": "",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:53 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:53 *** DAP compiling\n2026/08/26 15:12:53 DAP.p 4:0 -- constant OK declared as $BOOL but value is $INT\n2026/08/26 15:12:53 *** DAP compilation error count 1\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 DAP.p 4:0 -- constant OK declared as $BOOL but value is $INT\n2026/08/21 22:00:20 *** DAP compilation error count 1\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 1,
     "timed_out": false,
     "pass": true,
@@ -89,7 +109,11 @@
     "forbid": null,
     "note": "",
     "stdout": "3.1400000\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:53 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:54 *** DAP compiling\n2026/08/26 15:12:54 *** DAP compilation successful\n2026/08/26 15:12:54 *** DAP assembling the codes\n2026/08/26 15:12:54 *** DAP executing the codes\n2026/08/26 15:12:54 DAP.e *** Stopped after 6 steps, mem=0\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 *** DAP compilation successful\n2026/08/21 22:00:20 *** DAP assembling the codes\n2026/08/21 22:00:20 *** DAP executing the codes\n2026/08/21 22:00:20 DAP.e *** Stopped after 6 steps, mem=0\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -105,7 +129,11 @@
     "forbid": null,
     "note": "",
     "stdout": "3\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:54 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:54 *** DAP compiling\n2026/08/26 15:12:54 *** DAP compilation successful\n2026/08/26 15:12:54 *** DAP assembling the codes\n2026/08/26 15:12:54 *** DAP executing the codes\n2026/08/26 15:12:54 DAP.e *** Stopped after 13 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 *** DAP compilation successful\n2026/08/21 22:00:20 *** DAP assembling the codes\n2026/08/21 22:00:20 *** DAP executing the codes\n2026/08/21 22:00:20 DAP.e *** Stopped after 13 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -121,7 +149,11 @@
     "forbid": null,
     "note": "",
     "stdout": "3.5000000\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:54 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:54 *** DAP compiling\n2026/08/26 15:12:54 *** DAP compilation successful\n2026/08/26 15:12:54 *** DAP assembling the codes\n2026/08/26 15:12:54 *** DAP executing the codes\n2026/08/26 15:12:54 DAP.e *** Stopped after 17 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 *** DAP compilation successful\n2026/08/21 22:00:20 *** DAP assembling the codes\n2026/08/21 22:00:20 *** DAP executing the codes\n2026/08/21 22:00:20 DAP.e *** Stopped after 17 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -137,7 +169,11 @@
     "forbid": null,
     "note": "",
     "stdout": "",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:54 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:54 *** DAP compiling\n2026/08/26 15:12:54 DAP 7:4 -- Illegal operation for real type $DIV\n2026/08/26 15:12:54 *** DAP compilation error count 1\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 DAP 7:4 -- Illegal operation for real type $DIV\n2026/08/21 22:00:20 *** DAP compilation error count 1\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 1,
     "timed_out": false,
     "pass": true,
@@ -153,7 +189,11 @@
     "forbid": null,
     "note": "",
     "stdout": "",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:54 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:54 *** DAP compiling\n2026/08/26 15:12:54 DAP 7:4 -- Illegal operation for real type $DIV\n2026/08/26 15:12:54 *** DAP compilation error count 1\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 DAP 7:4 -- Illegal operation for real type $DIV\n2026/08/21 22:00:20 *** DAP compilation error count 1\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 1,
     "timed_out": false,
     "pass": true,
@@ -169,7 +209,11 @@
     "forbid": null,
     "note": "",
     "stdout": "3.7500000\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:54 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:54 *** DAP compiling\n2026/08/26 15:12:54 *** DAP compilation successful\n2026/08/26 15:12:54 *** DAP assembling the codes\n2026/08/26 15:12:54 *** DAP executing the codes\n2026/08/26 15:12:54 DAP.e *** Stopped after 17 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 *** DAP compilation successful\n2026/08/21 22:00:20 *** DAP assembling the codes\n2026/08/21 22:00:20 *** DAP executing the codes\n2026/08/21 22:00:20 DAP.e *** Stopped after 17 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -185,7 +229,11 @@
     "forbid": null,
     "note": "",
     "stdout": "2.8000000\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:54 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:54 *** DAP compiling\n2026/08/26 15:12:54 *** DAP compilation successful\n2026/08/26 15:12:54 *** DAP assembling the codes\n2026/08/26 15:12:54 *** DAP executing the codes\n2026/08/26 15:12:54 DAP.e *** Stopped after 16 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 *** DAP compilation successful\n2026/08/21 22:00:20 *** DAP assembling the codes\n2026/08/21 22:00:20 *** DAP executing the codes\n2026/08/21 22:00:20 DAP.e *** Stopped after 16 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -201,7 +249,11 @@
     "forbid": null,
     "note": "",
     "stdout": "3.0000000\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:54 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:54 *** DAP compiling\n2026/08/26 15:12:54 *** DAP compilation successful\n2026/08/26 15:12:54 *** DAP assembling the codes\n2026/08/26 15:12:54 *** DAP executing the codes\n2026/08/26 15:12:54 DAP.e *** Stopped after 13 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 *** DAP compilation successful\n2026/08/21 22:00:20 *** DAP assembling the codes\n2026/08/21 22:00:20 *** DAP executing the codes\n2026/08/21 22:00:20 DAP.e *** Stopped after 13 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -217,7 +269,11 @@
     "forbid": null,
     "note": "",
     "stdout": "1\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:54 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:54 *** DAP compiling\n2026/08/26 15:12:54 *** DAP compilation successful\n2026/08/26 15:12:54 *** DAP assembling the codes\n2026/08/26 15:12:54 *** DAP executing the codes\n2026/08/26 15:12:54 DAP.e *** Stopped after 13 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 *** DAP compilation successful\n2026/08/21 22:00:20 *** DAP assembling the codes\n2026/08/21 22:00:20 *** DAP executing the codes\n2026/08/21 22:00:20 DAP.e *** Stopped after 13 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -233,7 +289,11 @@
     "forbid": null,
     "note": "",
     "stdout": "",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:54 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:54 *** DAP compiling\n2026/08/26 15:12:54 DAP 5:4 -- Illegal operation for real type $MOD\n2026/08/26 15:12:54 *** DAP compilation error count 1\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 DAP 5:4 -- Illegal operation for real type $MOD\n2026/08/21 22:00:20 *** DAP compilation error count 1\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 1,
     "timed_out": false,
     "pass": true,
@@ -248,9 +308,15 @@
     "stdin": "",
     "forbid": null,
     "note": "",
+<<<<<<< HEAD
     "stdout": "0\n",
     "stderr": "2026/08/26 15:12:54 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:54 *** DAP compiling\n2026/08/26 15:12:54 *** DAP compilation successful\n2026/08/26 15:12:54 *** DAP assembling the codes\n2026/08/26 15:12:54 *** DAP executing the codes\n2026/08/26 15:12:54 DAP.e *** Stopped after 18 steps, mem=3\n",
     "rc": 0,
+=======
+    "stdout": "",
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 DAP.p 6:4 -- Type mismatch in assignment\n2026/08/21 22:00:20 *** DAP compilation error count 1\n",
+    "rc": 1,
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "timed_out": false,
     "pass": true,
     "reason": "OK"
@@ -265,7 +331,11 @@
     "forbid": null,
     "note": "",
     "stdout": "0.0000000\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:54 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:54 *** DAP compiling\n2026/08/26 15:12:54 *** DAP compilation successful\n2026/08/26 15:12:54 *** DAP assembling the codes\n2026/08/26 15:12:54 *** DAP executing the codes\n2026/08/26 15:12:54 DAP.e *** Stopped after 14 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 *** DAP compilation successful\n2026/08/21 22:00:20 *** DAP assembling the codes\n2026/08/21 22:00:20 *** DAP executing the codes\n2026/08/21 22:00:20 DAP.e *** Stopped after 14 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -281,7 +351,11 @@
     "forbid": null,
     "note": "",
     "stdout": "false\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:54 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:54 *** DAP compiling\n2026/08/26 15:12:54 *** DAP compilation successful\n2026/08/26 15:12:54 *** DAP assembling the codes\n2026/08/26 15:12:54 *** DAP executing the codes\n2026/08/26 15:12:54 DAP.e *** Stopped after 23 steps, mem=4\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 *** DAP compilation successful\n2026/08/21 22:00:20 *** DAP assembling the codes\n2026/08/21 22:00:20 *** DAP executing the codes\n2026/08/21 22:00:20 DAP.e *** Stopped after 23 steps, mem=4\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -297,7 +371,11 @@
     "forbid": null,
     "note": "",
     "stdout": "true\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:54 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:54 *** DAP compiling\n2026/08/26 15:12:54 *** DAP compilation successful\n2026/08/26 15:12:54 *** DAP assembling the codes\n2026/08/26 15:12:54 *** DAP executing the codes\n2026/08/26 15:12:54 DAP.e *** Stopped after 23 steps, mem=4\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 *** DAP compilation successful\n2026/08/21 22:00:20 *** DAP assembling the codes\n2026/08/21 22:00:20 *** DAP executing the codes\n2026/08/21 22:00:20 DAP.e *** Stopped after 23 steps, mem=4\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -313,7 +391,11 @@
     "forbid": null,
     "note": "",
     "stdout": "false\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:54 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:54 *** DAP compiling\n2026/08/26 15:12:54 *** DAP compilation successful\n2026/08/26 15:12:54 *** DAP assembling the codes\n2026/08/26 15:12:54 *** DAP executing the codes\n2026/08/26 15:12:54 DAP.e *** Stopped after 31 steps, mem=4\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 *** DAP compilation successful\n2026/08/21 22:00:20 *** DAP assembling the codes\n2026/08/21 22:00:20 *** DAP executing the codes\n2026/08/21 22:00:20 DAP.e *** Stopped after 31 steps, mem=4\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -329,7 +411,11 @@
     "forbid": null,
     "note": "",
     "stdout": "true\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:54 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:54 *** DAP compiling\n2026/08/26 15:12:54 *** DAP compilation successful\n2026/08/26 15:12:54 *** DAP assembling the codes\n2026/08/26 15:12:54 *** DAP executing the codes\n2026/08/26 15:12:54 DAP.e *** Stopped after 48 steps, mem=7\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 *** DAP compilation successful\n2026/08/21 22:00:20 *** DAP assembling the codes\n2026/08/21 22:00:20 *** DAP executing the codes\n2026/08/21 22:00:20 DAP.e *** Stopped after 48 steps, mem=7\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -345,7 +431,11 @@
     "forbid": null,
     "note": "",
     "stdout": "false\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:54 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:54 *** DAP compiling\n2026/08/26 15:12:54 *** DAP compilation successful\n2026/08/26 15:12:54 *** DAP assembling the codes\n2026/08/26 15:12:54 *** DAP executing the codes\n2026/08/26 15:12:54 DAP.e *** Stopped after 36 steps, mem=7\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 *** DAP compilation successful\n2026/08/21 22:00:20 *** DAP assembling the codes\n2026/08/21 22:00:20 *** DAP executing the codes\n2026/08/21 22:00:20 DAP.e *** Stopped after 36 steps, mem=7\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -361,7 +451,11 @@
     "forbid": null,
     "note": "",
     "stdout": "true\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:54 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:54 *** DAP compiling\n2026/08/26 15:12:54 *** DAP compilation successful\n2026/08/26 15:12:54 *** DAP assembling the codes\n2026/08/26 15:12:54 *** DAP executing the codes\n2026/08/26 15:12:54 DAP.e *** Stopped after 47 steps, mem=4\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 *** DAP compilation successful\n2026/08/21 22:00:20 *** DAP assembling the codes\n2026/08/21 22:00:20 *** DAP executing the codes\n2026/08/21 22:00:20 DAP.e *** Stopped after 47 steps, mem=4\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -377,7 +471,11 @@
     "forbid": null,
     "note": "",
     "stdout": "0\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:54 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:54 *** DAP compiling\n2026/08/26 15:12:54 *** DAP compilation successful\n2026/08/26 15:12:54 *** DAP assembling the codes\n2026/08/26 15:12:54 *** DAP executing the codes\n2026/08/26 15:12:54 DAP.e *** Stopped after 32 steps, mem=6\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 *** DAP compilation successful\n2026/08/21 22:00:20 *** DAP assembling the codes\n2026/08/21 22:00:20 *** DAP executing the codes\n2026/08/21 22:00:20 DAP.e *** Stopped after 32 steps, mem=6\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -393,7 +491,11 @@
     "forbid": null,
     "note": "",
     "stdout": "0\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:54 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:54 *** DAP compiling\n2026/08/26 15:12:54 *** DAP compilation successful\n2026/08/26 15:12:54 *** DAP assembling the codes\n2026/08/26 15:12:54 *** DAP executing the codes\n2026/08/26 15:12:54 DAP.e *** Stopped after 27 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 *** DAP compilation successful\n2026/08/21 22:00:20 *** DAP assembling the codes\n2026/08/21 22:00:20 *** DAP executing the codes\n2026/08/21 22:00:20 DAP.e *** Stopped after 27 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -409,7 +511,11 @@
     "forbid": null,
     "note": "",
     "stdout": "1\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:54 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:54 *** DAP compiling\n2026/08/26 15:12:54 *** DAP compilation successful\n2026/08/26 15:12:54 *** DAP assembling the codes\n2026/08/26 15:12:54 *** DAP executing the codes\n2026/08/26 15:12:54 DAP.e *** Stopped after 22 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 *** DAP compilation successful\n2026/08/21 22:00:20 *** DAP assembling the codes\n2026/08/21 22:00:20 *** DAP executing the codes\n2026/08/21 22:00:20 DAP.e *** Stopped after 22 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -425,7 +531,11 @@
     "forbid": null,
     "note": "",
     "stdout": "-1\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:54 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:54 *** DAP compiling\n2026/08/26 15:12:54 *** DAP compilation successful\n2026/08/26 15:12:54 *** DAP assembling the codes\n2026/08/26 15:12:54 *** DAP executing the codes\n2026/08/26 15:12:54 DAP.e *** Stopped after 29 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:20 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:20 *** DAP compiling\n2026/08/21 22:00:20 *** DAP compilation successful\n2026/08/21 22:00:20 *** DAP assembling the codes\n2026/08/21 22:00:20 *** DAP executing the codes\n2026/08/21 22:00:20 DAP.e *** Stopped after 29 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -441,7 +551,11 @@
     "forbid": null,
     "note": "elseif alias (flat), x=0 -> masuk else terakhir",
     "stdout": "0\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:54 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:54 *** DAP compiling\n2026/08/26 15:12:54 *** DAP compilation successful\n2026/08/26 15:12:54 *** DAP assembling the codes\n2026/08/26 15:12:54 *** DAP executing the codes\n2026/08/26 15:12:54 DAP.e *** Stopped after 27 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 27 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -457,7 +571,11 @@
     "forbid": null,
     "note": "if baru baris baru dalam else = nested if BENERAN (bukan alias), butuh endif sendiri; x=0 tidak match cabang manapun -> tidak ada output sama sekali (beda dgn F4a)",
     "stdout": "",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:54 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:54 *** DAP compiling\n2026/08/26 15:12:54 *** DAP compilation successful\n2026/08/26 15:12:54 *** DAP assembling the codes\n2026/08/26 15:12:54 *** DAP executing the codes\n2026/08/26 15:12:54 DAP.e *** Stopped after 25 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 25 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -473,7 +591,11 @@
     "forbid": null,
     "note": "",
     "stdout": "",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:55 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:55 *** DAP compiling\n2026/08/26 15:12:55 DAP.p 7:0 -- endfor expected\n2026/08/26 15:12:55 *** DAP compilation error count 1\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 DAP.p 7:0 -- endfor expected\n2026/08/21 22:00:21 *** DAP compilation error count 1\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 1,
     "timed_out": false,
     "pass": true,
@@ -489,7 +611,11 @@
     "forbid": null,
     "note": "",
     "stdout": "",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:55 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:55 *** DAP compiling\n2026/08/26 15:12:55 DAP.p 9:0 -- endwhile expected\n2026/08/26 15:12:55 *** DAP compilation error count 1\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 DAP.p 9:0 -- endwhile expected\n2026/08/21 22:00:21 *** DAP compilation error count 1\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 1,
     "timed_out": false,
     "pass": true,
@@ -505,7 +631,11 @@
     "forbid": null,
     "note": "",
     "stdout": "",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:55 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:55 *** DAP compiling\n2026/08/26 15:12:55 DAP.p 8:0 -- endif expected\n2026/08/26 15:12:55 *** DAP compilation error count 1\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 DAP.p 8:0 -- endif expected\n2026/08/21 22:00:21 *** DAP compilation error count 1\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 1,
     "timed_out": false,
     "pass": true,
@@ -521,7 +651,11 @@
     "forbid": null,
     "note": "",
     "stdout": "",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:55 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:55 *** DAP compiling\n2026/08/26 15:12:55 DAP.p 8:8 -- Must be at the beginning of line\n2026/08/26 15:12:55 DAP.p 10:0 -- endcase expected\n2026/08/26 15:12:55 *** DAP compilation error count 2\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 DAP.p 8:8 -- Must be at the beginning of line\n2026/08/21 22:00:21 DAP.p 10:0 -- endcase expected\n2026/08/21 22:00:21 *** DAP compilation error count 2\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 1,
     "timed_out": false,
     "pass": true,
@@ -537,7 +671,11 @@
     "forbid": null,
     "note": "",
     "stdout": "1\n2\n3\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:55 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:55 *** DAP compiling\n2026/08/26 15:12:55 *** DAP compilation successful\n2026/08/26 15:12:55 *** DAP assembling the codes\n2026/08/26 15:12:55 *** DAP executing the codes\n2026/08/26 15:12:55 DAP.e *** Stopped after 76 steps, mem=4\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 76 steps, mem=4\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -553,7 +691,11 @@
     "forbid": null,
     "note": "",
     "stdout": "42\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:55 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:55 *** DAP compiling\n2026/08/26 15:12:55 *** DAP compilation successful\n2026/08/26 15:12:55 *** DAP assembling the codes\n2026/08/26 15:12:55 *** DAP executing the codes\n2026/08/26 15:12:55 DAP.e *** Stopped after 6 steps, mem=0\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 6 steps, mem=0\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -569,7 +711,11 @@
     "forbid": null,
     "note": "",
     "stdout": "33.4933333\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:55 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:55 *** DAP compiling\n2026/08/26 15:12:55 DAP.s 8:11 -- Inconsistence keywords: = vs. <- (see line 3)\n2026/08/26 15:12:55 *** DAP compilation successful\n2026/08/26 15:12:55 *** DAP assembling the codes\n2026/08/26 15:12:55 *** DAP executing the codes\n2026/08/26 15:12:55 DAP.e *** Stopped after 27 steps, mem=4\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 DAP.s 8:11 -- Inconsistence keywords: = vs. <- (see line 3)\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 27 steps, mem=4\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -585,7 +731,11 @@
     "forbid": null,
     "note": "",
     "stdout": "4\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:55 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:55 *** DAP compiling\n2026/08/26 15:12:55 *** DAP compilation successful\n2026/08/26 15:12:55 *** DAP assembling the codes\n2026/08/26 15:12:55 *** DAP executing the codes\n2026/08/26 15:12:55 DAP.e *** Stopped after 135 steps, mem=4\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 135 steps, mem=4\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -601,7 +751,11 @@
     "forbid": null,
     "note": "",
     "stdout": "-5\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:55 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:55 *** DAP compiling\n2026/08/26 15:12:55 *** DAP compilation successful\n2026/08/26 15:12:55 *** DAP assembling the codes\n2026/08/26 15:12:55 *** DAP executing the codes\n2026/08/26 15:12:55 DAP.e *** Stopped after 13 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 13 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -617,7 +771,11 @@
     "forbid": null,
     "note": "",
     "stdout": "-2\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:55 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:55 *** DAP compiling\n2026/08/26 15:12:55 *** DAP compilation successful\n2026/08/26 15:12:55 *** DAP assembling the codes\n2026/08/26 15:12:55 *** DAP executing the codes\n2026/08/26 15:12:55 DAP.e *** Stopped after 13 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 13 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -633,7 +791,11 @@
     "forbid": null,
     "note": "",
     "stdout": "7\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:55 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:55 *** DAP compiling\n2026/08/26 15:12:55 *** DAP compilation successful\n2026/08/26 15:12:55 *** DAP assembling the codes\n2026/08/26 15:12:55 *** DAP executing the codes\n2026/08/26 15:12:55 DAP.e *** Stopped after 25 steps, mem=5\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 25 steps, mem=5\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -649,7 +811,11 @@
     "forbid": null,
     "note": "",
     "stdout": "5\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:55 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:55 *** DAP compiling\n2026/08/26 15:12:55 *** DAP compilation successful\n2026/08/26 15:12:55 *** DAP assembling the codes\n2026/08/26 15:12:55 *** DAP executing the codes\n2026/08/26 15:12:55 DAP.e *** Stopped after 13 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 13 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -665,7 +831,11 @@
     "forbid": null,
     "note": "",
     "stdout": "5\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:55 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:55 *** DAP compiling\n2026/08/26 15:12:55 *** DAP compilation successful\n2026/08/26 15:12:55 *** DAP assembling the codes\n2026/08/26 15:12:55 *** DAP executing the codes\n2026/08/26 15:12:55 DAP.e *** Stopped after 13 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 13 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -681,7 +851,11 @@
     "forbid": null,
     "note": "",
     "stdout": "true\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:55 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:55 *** DAP compiling\n2026/08/26 15:12:55 *** DAP compilation successful\n2026/08/26 15:12:55 *** DAP assembling the codes\n2026/08/26 15:12:55 *** DAP executing the codes\n2026/08/26 15:12:55 DAP.e *** Stopped after 39 steps, mem=5\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 39 steps, mem=5\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -697,7 +871,11 @@
     "forbid": null,
     "note": "",
     "stdout": "7\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:55 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:55 *** DAP compiling\n2026/08/26 15:12:55 *** DAP compilation successful\n2026/08/26 15:12:55 *** DAP assembling the codes\n2026/08/26 15:12:55 *** DAP executing the codes\n2026/08/26 15:12:55 DAP.e *** Stopped after 13 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 13 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -713,7 +891,11 @@
     "forbid": null,
     "note": "'For' cocok keyword 'for' case-insensitive -> gagal jadi nama variabel",
     "stdout": "",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:55 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:55 *** DAP compiling\n2026/08/26 15:12:55 DAP.p 5:4 -- Not a variable <-\n2026/08/26 15:12:55 DAP.p 5:4 -- <- expected\n2026/08/26 15:12:55 DAP.p 6:4 -- Type mismatch in assignment\n2026/08/26 15:12:55 DAP.p 7:0 -- endfor expected\n2026/08/26 15:12:55 *** DAP compilation error count 4\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 DAP.p 5:4 -- Not a variable <-\n2026/08/21 22:00:21 DAP.p 5:4 -- <- expected\n2026/08/21 22:00:21 DAP.p 6:4 -- Type mismatch in assignment\n2026/08/21 22:00:21 DAP.p 7:0 -- endfor expected\n2026/08/21 22:00:21 *** DAP compilation error count 4\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 1,
     "timed_out": false,
     "pass": true,
@@ -729,7 +911,11 @@
     "forbid": null,
     "note": "",
     "stdout": "100\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:55 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:55 *** DAP compiling\n2026/08/26 15:12:55 *** DAP compilation successful\n2026/08/26 15:12:55 *** DAP assembling the codes\n2026/08/26 15:12:55 *** DAP executing the codes\n2026/08/26 15:12:55 DAP.e *** Stopped after 13 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 13 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -745,7 +931,11 @@
     "forbid": null,
     "note": "",
     "stdout": "1\n2\n3\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:56 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:56 *** DAP compiling\n2026/08/26 15:12:56 *** DAP compilation successful\n2026/08/26 15:12:56 *** DAP assembling the codes\n2026/08/26 15:12:56 *** DAP executing the codes\n2026/08/26 15:12:56 DAP.e *** Stopped after 76 steps, mem=4\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 76 steps, mem=4\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -761,7 +951,11 @@
     "forbid": null,
     "note": "",
     "stdout": "0\n1\n2\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:56 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:56 *** DAP compiling\n2026/08/26 15:12:56 *** DAP compilation successful\n2026/08/26 15:12:56 *** DAP assembling the codes\n2026/08/26 15:12:56 *** DAP executing the codes\n2026/08/26 15:12:56 DAP.e *** Stopped after 79 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 79 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -777,7 +971,11 @@
     "forbid": null,
     "note": "",
     "stdout": "5\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:56 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:56 *** DAP compiling\n2026/08/26 15:12:56 *** DAP compilation successful\n2026/08/26 15:12:56 *** DAP assembling the codes\n2026/08/26 15:12:56 *** DAP executing the codes\n2026/08/26 15:12:56 DAP.e *** Stopped after 21 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 21 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -793,7 +991,11 @@
     "forbid": null,
     "note": "",
     "stdout": "-1\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:56 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:56 *** DAP compiling\n2026/08/26 15:12:56 *** DAP compilation successful\n2026/08/26 15:12:56 *** DAP assembling the codes\n2026/08/26 15:12:56 *** DAP executing the codes\n2026/08/26 15:12:56 DAP.e *** Stopped after 20 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 20 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -808,9 +1010,15 @@
     "stdin": "",
     "forbid": null,
     "note": "",
+<<<<<<< HEAD
     "stdout": "200\n",
     "stderr": "2026/08/26 15:12:56 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:56 *** DAP compiling\n2026/08/26 15:12:56 *** DAP compilation successful\n2026/08/26 15:12:56 *** DAP assembling the codes\n2026/08/26 15:12:56 *** DAP executing the codes\n2026/08/26 15:12:56 DAP.e *** Stopped after 31 steps, mem=4\n",
     "rc": 0,
+=======
+    "stdout": "",
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 DAP.p 11:4 -- Error, variable :end is not defined\n2026/08/21 22:00:21 DAP.p 11.4 -- mismatch case label type\n2026/08/21 22:00:21 DAP.p 12:0 -- case expected\n2026/08/21 22:00:21 DAP.p 13:0 -- of expected\n2026/08/21 22:00:21 DAP.p 13:0 -- endcase expected\n2026/08/21 22:00:21 DAP.p 13:0 -- endcase expected\n2026/08/21 22:00:21 *** DAP compilation error count 6\n",
+    "rc": 1,
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "timed_out": false,
     "pass": true,
     "reason": "OK"
@@ -825,7 +1033,11 @@
     "forbid": null,
     "note": "'end' baris sendiri lalu 'if' baris baru -> BUKAN alias (butuh nempel sebaris) -> harus tetap gagal compile",
     "stdout": "",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:56 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:56 *** DAP compiling\n2026/08/26 15:12:56 DAP.p 12:8 -- endif expected\n2026/08/26 15:12:56 DAP.p 14:0 -- Non boolean condition\n2026/08/26 15:12:56 DAP.p 14:0 -- then expected\n2026/08/26 15:12:56 DAP.p 14:0 -- endif expected\n2026/08/26 15:12:56 DAP.p 15:0 -- endif expected\n2026/08/26 15:12:56 *** DAP compilation error count 5\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 DAP.p 12:8 -- endif expected\n2026/08/21 22:00:21 DAP.p 14:0 -- Non boolean condition\n2026/08/21 22:00:21 DAP.p 14:0 -- then expected\n2026/08/21 22:00:21 DAP.p 14:0 -- endif expected\n2026/08/21 22:00:21 DAP.p 15:0 -- endif expected\n2026/08/21 22:00:21 *** DAP compilation error count 5\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 1,
     "timed_out": false,
     "pass": true,
@@ -841,7 +1053,11 @@
     "forbid": "Inconsistence keywords",
     "note": "",
     "stdout": "1\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:56 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:56 *** DAP compiling\n2026/08/26 15:12:56 *** DAP compilation successful\n2026/08/26 15:12:56 *** DAP assembling the codes\n2026/08/26 15:12:56 *** DAP executing the codes\n2026/08/26 15:12:56 DAP.e *** Stopped after 22 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 22 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -857,7 +1073,11 @@
     "forbid": null,
     "note": "",
     "stdout": "9000\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:56 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:56 *** DAP compiling\n2026/08/26 15:12:56 *** DAP compilation successful\n2026/08/26 15:12:56 *** DAP assembling the codes\n2026/08/26 15:12:56 *** DAP executing the codes\n2026/08/26 15:12:56 DAP.e *** Stopped after 12 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 12 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -873,7 +1093,11 @@
     "forbid": null,
     "note": "",
     "stdout": "5\n5\n5\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:56 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:56 *** DAP compiling\n2026/08/26 15:12:56 *** DAP compilation successful\n2026/08/26 15:12:56 *** DAP assembling the codes\n2026/08/26 15:12:56 *** DAP executing the codes\n2026/08/26 15:12:56 DAP.e *** Stopped after 26 steps, mem=5\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 26 steps, mem=5\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -889,7 +1113,11 @@
     "forbid": null,
     "note": "",
     "stdout": "5.0000000\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:56 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:56 *** DAP compiling\n2026/08/26 15:12:56 *** DAP compilation successful\n2026/08/26 15:12:56 *** DAP assembling the codes\n2026/08/26 15:12:56 *** DAP executing the codes\n2026/08/26 15:12:56 DAP.e *** Stopped after 12 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 12 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -905,7 +1133,11 @@
     "forbid": null,
     "note": "",
     "stdout": "7\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:56 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:56 *** DAP compiling\n2026/08/26 15:12:56 *** DAP compilation successful\n2026/08/26 15:12:56 *** DAP assembling the codes\n2026/08/26 15:12:56 *** DAP executing the codes\n2026/08/26 15:12:56 DAP.e *** Stopped after 12 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 12 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -921,7 +1153,11 @@
     "forbid": null,
     "note": "",
     "stdout": "true\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:56 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:56 *** DAP compiling\n2026/08/26 15:12:56 *** DAP compilation successful\n2026/08/26 15:12:56 *** DAP assembling the codes\n2026/08/26 15:12:56 *** DAP executing the codes\n2026/08/26 15:12:56 DAP.e *** Stopped after 12 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 12 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -937,7 +1173,11 @@
     "forbid": null,
     "note": "",
     "stdout": "42\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:56 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:56 *** DAP compiling\n2026/08/26 15:12:56 *** DAP compilation successful\n2026/08/26 15:12:56 *** DAP assembling the codes\n2026/08/26 15:12:56 *** DAP executing the codes\n2026/08/26 15:12:56 DAP.e *** Stopped after 13 steps, mem=3\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 13 steps, mem=3\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -953,7 +1193,11 @@
     "forbid": null,
     "note": "",
     "stdout": "",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:56 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:56 *** DAP compiling\n2026/08/26 15:12:56 *** DAP compilation successful\n2026/08/26 15:12:56 *** DAP assembling the codes\n2026/08/26 15:12:56 *** DAP executing the codes\n2026/08/26 15:12:56 DAP.e 7:8 -- Illegal access to uninitialized variable, 1\n2026/08/26 15:12:56 DAP.e *** Stopped after 12 steps, mem=4\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e 7:8 -- Illegal access to uninitialized variable, 1\n2026/08/21 22:00:21 DAP.e *** Stopped after 12 steps, mem=4\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -969,7 +1213,11 @@
     "forbid": null,
     "note": "",
     "stdout": "",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:56 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:56 *** DAP compiling\n2026/08/26 15:12:56 DAP 5:4 -- Division by zero $DIV\n2026/08/26 15:12:56 *** DAP compilation error count 1\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 DAP 5:4 -- Division by zero $DIV\n2026/08/21 22:00:21 *** DAP compilation error count 1\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 1,
     "timed_out": false,
     "pass": true,
@@ -985,7 +1233,11 @@
     "forbid": null,
     "note": "",
     "stdout": "",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:56 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:56 *** DAP compiling\n2026/08/26 15:12:56 DAP 5:4 -- Division by zero $MOD\n2026/08/26 15:12:56 *** DAP compilation error count 1\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 DAP 5:4 -- Division by zero $MOD\n2026/08/21 22:00:21 *** DAP compilation error count 1\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 1,
     "timed_out": false,
     "pass": true,
@@ -1001,7 +1253,11 @@
     "forbid": null,
     "note": "",
     "stdout": "",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:56 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:56 *** DAP compiling\n2026/08/26 15:12:56 *** DAP compilation successful\n2026/08/26 15:12:56 *** DAP assembling the codes\n2026/08/26 15:12:56 *** DAP executing the codes\n2026/08/26 15:12:56 DAP.e 7:4 -- Illegal division by zero\n2026/08/26 15:12:56 DAP.e *** Stopped after 18 steps, mem=4\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e 7:4 -- Illegal division by zero\n2026/08/21 22:00:21 DAP.e *** Stopped after 18 steps, mem=4\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -1017,7 +1273,11 @@
     "forbid": null,
     "note": "",
     "stdout": "",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:56 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:56 *** DAP compiling\n2026/08/26 15:12:56 *** DAP compilation successful\n2026/08/26 15:12:56 *** DAP assembling the codes\n2026/08/26 15:12:56 *** DAP executing the codes\n2026/08/26 15:12:56 DAP.e 7:4 -- Illegal modulo division by zero\n2026/08/26 15:12:56 DAP.e *** Stopped after 18 steps, mem=4\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e 7:4 -- Illegal modulo division by zero\n2026/08/21 22:00:21 DAP.e *** Stopped after 18 steps, mem=4\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -1033,7 +1293,11 @@
     "forbid": null,
     "note": "",
     "stdout": "",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:56 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:56 *** DAP compiling\n2026/08/26 15:12:56 DAP 5:4 -- Division by zero $RDIV\n2026/08/26 15:12:56 *** DAP compilation error count 1\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 DAP 5:4 -- Division by zero $RDIV\n2026/08/21 22:00:21 *** DAP compilation error count 1\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 1,
     "timed_out": false,
     "pass": true,
@@ -1049,7 +1313,11 @@
     "forbid": null,
     "note": "",
     "stdout": "3\n2\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:56 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:56 *** DAP compiling\n2026/08/26 15:12:56 *** DAP compilation successful\n2026/08/26 15:12:56 *** DAP assembling the codes\n2026/08/26 15:12:56 *** DAP executing the codes\n2026/08/26 15:12:56 DAP.e *** Stopped after 37 steps, mem=6\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 37 steps, mem=6\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -1065,7 +1333,11 @@
     "forbid": null,
     "note": "",
     "stdout": "",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:56 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:56 *** DAP compiling\n2026/08/26 15:12:56 DAP.p 4:4 -- Variable/constant n already declared\n2026/08/26 15:12:56 *** DAP compilation error count 1\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 DAP.p 4:4 -- Variable/constant n already declared\n2026/08/21 22:00:21 *** DAP compilation error count 1\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 1,
     "timed_out": false,
     "pass": true,
@@ -1081,7 +1353,11 @@
     "forbid": null,
     "note": "",
     "stdout": "",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:57 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:57 *** DAP compiling\n2026/08/26 15:12:57 DAP.p 4:4 -- Variable/constant N already declared\n2026/08/26 15:12:57 *** DAP compilation error count 1\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 DAP.p 4:4 -- Variable/constant N already declared\n2026/08/21 22:00:21 *** DAP compilation error count 1\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 1,
     "timed_out": false,
     "pass": true,
@@ -1097,7 +1373,11 @@
     "forbid": null,
     "note": "",
     "stdout": "1\n2.5000000\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:57 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:57 *** DAP compiling\n2026/08/26 15:12:57 *** DAP compilation successful\n2026/08/26 15:12:57 *** DAP assembling the codes\n2026/08/26 15:12:57 *** DAP executing the codes\n2026/08/26 15:12:57 DAP.e *** Stopped after 21 steps, mem=4\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 21 steps, mem=4\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -1113,7 +1393,11 @@
     "forbid": null,
     "note": "label harus SEJAJAR dgn 'case' (col sama), body 1 level lbh dalam -- kalau label & body sejajar, parser salah scan (lihat catatan laporan)",
     "stdout": "200\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:57 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:57 *** DAP compiling\n2026/08/26 15:12:57 *** DAP compilation successful\n2026/08/26 15:12:57 *** DAP assembling the codes\n2026/08/26 15:12:57 *** DAP executing the codes\n2026/08/26 15:12:57 DAP.e *** Stopped after 31 steps, mem=4\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 31 steps, mem=4\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -1129,7 +1413,11 @@
     "forbid": null,
     "note": "",
     "stdout": "999\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:57 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:57 *** DAP compiling\n2026/08/26 15:12:57 *** DAP compilation successful\n2026/08/26 15:12:57 *** DAP assembling the codes\n2026/08/26 15:12:57 *** DAP executing the codes\n2026/08/26 15:12:57 DAP.e *** Stopped after 30 steps, mem=4\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 30 steps, mem=4\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -1145,7 +1433,11 @@
     "forbid": null,
     "note": "",
     "stdout": "2\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:57 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:57 *** DAP compiling\n2026/08/26 15:12:57 *** DAP compilation successful\n2026/08/26 15:12:57 *** DAP assembling the codes\n2026/08/26 15:12:57 *** DAP executing the codes\n2026/08/26 15:12:57 DAP.e *** Stopped after 31 steps, mem=4\n",
+=======
+    "stderr": "2026/08/21 22:00:21 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:21 *** DAP compiling\n2026/08/21 22:00:21 *** DAP compilation successful\n2026/08/21 22:00:21 *** DAP assembling the codes\n2026/08/21 22:00:21 *** DAP executing the codes\n2026/08/21 22:00:21 DAP.e *** Stopped after 31 steps, mem=4\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -1161,7 +1453,11 @@
     "forbid": null,
     "note": "",
     "stdout": "2\n1\n0\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:57 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:57 *** DAP compiling\n2026/08/26 15:12:57 *** DAP compilation successful\n2026/08/26 15:12:57 *** DAP assembling the codes\n2026/08/26 15:12:57 *** DAP executing the codes\n2026/08/26 15:12:57 DAP.e *** Stopped after 183 steps, mem=5\n",
+=======
+    "stderr": "2026/08/21 22:00:22 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:22 *** DAP compiling\n2026/08/21 22:00:22 *** DAP compilation successful\n2026/08/21 22:00:22 *** DAP assembling the codes\n2026/08/21 22:00:22 *** DAP executing the codes\n2026/08/21 22:00:22 DAP.e *** Stopped after 183 steps, mem=5\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -1177,7 +1473,11 @@
     "forbid": null,
     "note": "",
     "stdout": "1\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:57 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:57 *** DAP compiling\n2026/08/26 15:12:57 *** DAP compilation successful\n2026/08/26 15:12:57 *** DAP assembling the codes\n2026/08/26 15:12:57 *** DAP executing the codes\n2026/08/26 15:12:57 DAP.e *** Stopped after 75 steps, mem=6\n",
+=======
+    "stderr": "2026/08/21 22:00:22 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:22 *** DAP compiling\n2026/08/21 22:00:22 *** DAP compilation successful\n2026/08/21 22:00:22 *** DAP assembling the codes\n2026/08/21 22:00:22 *** DAP executing the codes\n2026/08/21 22:00:22 DAP.e *** Stopped after 75 steps, mem=6\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -1193,7 +1493,11 @@
     "forbid": null,
     "note": "const + keyword case-insensitive + AND berantai",
     "stdout": "true\n",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:57 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:57 *** DAP compiling\n2026/08/26 15:12:57 DAP.s 7:6 -- Inconsistence keywords: = vs. <- (see line 3)\n2026/08/26 15:12:57 DAP.s 8:6 -- Inconsistence keywords: = vs. <- (see line 3)\n2026/08/26 15:12:57 DAP.s 9:6 -- Inconsistence keywords: = vs. <- (see line 3)\n2026/08/26 15:12:57 DAP.s 10:10 -- Inconsistence keywords: = vs. <- (see line 3)\n2026/08/26 15:12:57 *** DAP compilation successful\n2026/08/26 15:12:57 *** DAP assembling the codes\n2026/08/26 15:12:57 *** DAP executing the codes\n2026/08/26 15:12:57 DAP.e *** Stopped after 46 steps, mem=6\n",
+=======
+    "stderr": "2026/08/21 22:00:22 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:22 *** DAP compiling\n2026/08/21 22:00:22 DAP.s 7:6 -- Inconsistence keywords: = vs. <- (see line 3)\n2026/08/21 22:00:22 DAP.s 8:6 -- Inconsistence keywords: = vs. <- (see line 3)\n2026/08/21 22:00:22 DAP.s 9:6 -- Inconsistence keywords: = vs. <- (see line 3)\n2026/08/21 22:00:22 DAP.s 10:10 -- Inconsistence keywords: = vs. <- (see line 3)\n2026/08/21 22:00:22 *** DAP compilation successful\n2026/08/21 22:00:22 *** DAP assembling the codes\n2026/08/21 22:00:22 *** DAP executing the codes\n2026/08/21 22:00:22 DAP.e *** Stopped after 46 steps, mem=6\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -1209,7 +1513,11 @@
     "forbid": null,
     "note": "inisialisasi + duplikat tetap terdeteksi",
     "stdout": "",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:57 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:57 *** DAP compiling\n2026/08/26 15:12:57 DAP.p 4:4 -- Variable/constant x already declared\n2026/08/26 15:12:57 *** DAP compilation error count 1\n",
+=======
+    "stderr": "2026/08/21 22:00:22 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:22 *** DAP compiling\n2026/08/21 22:00:22 DAP.p 4:4 -- Variable/constant x already declared\n2026/08/21 22:00:22 *** DAP compilation error count 1\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 1,
     "timed_out": false,
     "pass": true,
@@ -1225,7 +1533,11 @@
     "forbid": null,
     "note": "else-if alias + AND berantai + keyword case-insensitive dalam if besar",
     "stdout": "C",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:57 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:57 *** DAP compiling\n2026/08/26 15:12:57 DAP.s 9:39 -- Inconsistence keywords: THEN vs. then (see line 7)\n2026/08/26 15:12:57 DAP.s 11:24 -- Inconsistence keywords: AND vs. and (see line 9)\n2026/08/26 15:12:57 DAP.s 11:39 -- Inconsistence keywords: THEN vs. then (see line 7)\n2026/08/26 15:12:57 *** DAP compilation successful\n2026/08/26 15:12:57 *** DAP assembling the codes\n2026/08/26 15:12:57 *** DAP executing the codes\n2026/08/26 15:12:57 DAP.e *** Stopped after 52 steps, mem=4\n",
+=======
+    "stderr": "2026/08/21 22:00:22 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:22 *** DAP compiling\n2026/08/21 22:00:22 DAP.s 9:39 -- Inconsistence keywords: THEN vs. then (see line 7)\n2026/08/21 22:00:22 DAP.s 11:24 -- Inconsistence keywords: AND vs. and (see line 9)\n2026/08/21 22:00:22 DAP.s 11:39 -- Inconsistence keywords: THEN vs. then (see line 7)\n2026/08/21 22:00:22 *** DAP compilation successful\n2026/08/21 22:00:22 *** DAP assembling the codes\n2026/08/21 22:00:22 *** DAP executing the codes\n2026/08/21 22:00:22 DAP.e *** Stopped after 52 steps, mem=4\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
@@ -1241,7 +1553,11 @@
     "forbid": null,
     "note": "for tanpa endfor di dalam while yg py endwhile; cek lokasi error benar (baris 'i <- i+1', bukan baris endwhile)",
     "stdout": "",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:57 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:57 *** DAP compiling\n2026/08/26 15:12:57 DAP.p 9:8 -- endfor expected\n2026/08/26 15:12:57 *** DAP compilation error count 1\n",
+=======
+    "stderr": "2026/08/21 22:00:22 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:22 *** DAP compiling\n2026/08/21 22:00:22 DAP.p 9:8 -- endfor expected\n2026/08/21 22:00:22 *** DAP compilation error count 1\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 1,
     "timed_out": false,
     "pass": true,
@@ -1257,7 +1573,11 @@
     "forbid": null,
     "note": "skenario nyata kalkulator nilai",
     "stdout": "C",
+<<<<<<< HEAD
     "stderr": "2026/08/26 15:12:57 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/26 15:12:57 *** DAP compiling\n2026/08/26 15:12:57 DAP.s 9:15 -- Inconsistence keywords: = vs. <- (see line 3)\n2026/08/26 15:12:57 DAP.s 11:15 -- Inconsistence keywords: = vs. <- (see line 3)\n2026/08/26 15:12:57 DAP.s 13:15 -- Inconsistence keywords: = vs. <- (see line 3)\n2026/08/26 15:12:57 DAP.s 15:15 -- Inconsistence keywords: = vs. <- (see line 3)\n2026/08/26 15:12:57 *** DAP compilation successful\n2026/08/26 15:12:57 *** DAP assembling the codes\n2026/08/26 15:12:57 *** DAP executing the codes\n2026/08/26 15:12:57 DAP.e *** Stopped after 41 steps, mem=4\n",
+=======
+    "stderr": "2026/08/21 22:00:22 *** DAP pseudocode emulator, v. 2025.09.05\n2026/08/21 22:00:22 *** DAP compiling\n2026/08/21 22:00:22 DAP.s 9:15 -- Inconsistence keywords: = vs. <- (see line 3)\n2026/08/21 22:00:22 DAP.s 11:15 -- Inconsistence keywords: = vs. <- (see line 3)\n2026/08/21 22:00:22 DAP.s 13:15 -- Inconsistence keywords: = vs. <- (see line 3)\n2026/08/21 22:00:22 DAP.s 15:15 -- Inconsistence keywords: = vs. <- (see line 3)\n2026/08/21 22:00:22 *** DAP compilation successful\n2026/08/21 22:00:22 *** DAP assembling the codes\n2026/08/21 22:00:22 *** DAP executing the codes\n2026/08/21 22:00:22 DAP.e *** Stopped after 41 steps, mem=4\n",
+>>>>>>> 0f0b03975cbe063292cbf0c557ef8998b36d3b38
     "rc": 0,
     "timed_out": false,
     "pass": true,
