@@ -1,0 +1,7 @@
+program K15
+kamus
+    nilaiUjian : integer
+algoritma
+    NilaiUjian <- 85
+    output(NilaiUjian)
+endprogram

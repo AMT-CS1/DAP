@@ -1,0 +1,7 @@
+program K14
+kamus
+    Program : integer
+algoritma
+    Program <- 10
+    output(Program)
+endprogram

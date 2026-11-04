@@ -1,0 +1,7 @@
+program K13
+kamus
+    x : integer
+algoritma
+    x <- 99
+    Tulis(x)
+endprogram

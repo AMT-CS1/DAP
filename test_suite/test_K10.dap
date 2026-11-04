@@ -1,0 +1,12 @@
+program K10
+kamus
+    a, b : integer
+    c : boolean
+algoritma
+    a <- 10 DIV 3
+    b <- 10 Mod 3
+    c <- Not False And (a > 0 Or b > 0)
+    output(a)
+    output(b)
+    output(c)
+endprogram

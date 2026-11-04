@@ -1,0 +1,16 @@
+program K11
+kamus
+    i : Integer
+    r : REAL
+    b : Boolean
+    c : Character
+algoritma
+    i <- 10
+    r <- 2.5
+    b <- True
+    c <- 'X'
+    output(i)
+    output(r)
+    output(b)
+    output(c)
+endprogram

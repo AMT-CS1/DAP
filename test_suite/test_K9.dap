@@ -1,0 +1,13 @@
+program K9
+kamus
+    i : integer
+    x : integer
+algoritma
+    x <- 10
+    For i <- 1 To 2 Do
+        Output(i)
+    EndFor
+    If x > 5 Then
+        Output(x)
+    EndIf
+endprogram

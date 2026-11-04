@@ -1,7 +1,0 @@
-program Error
-kamus
-    abc:integer
-algoritma
-    abc = dap
-    print(abc)
-endprogram

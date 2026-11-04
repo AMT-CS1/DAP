@@ -1,0 +1,8 @@
+Program HitungLuas
+kamus
+    sisi, luas : integer
+algoritma
+    sisi <- 5
+    luas <- sisi * sisi
+    output(luas)
+endprogram

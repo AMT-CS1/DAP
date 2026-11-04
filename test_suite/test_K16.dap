@@ -1,0 +1,6 @@
+program K16
+kamus
+    const MAX_VAL : integer = 100
+algoritma
+    output(MAX_VAL)
+endprogram

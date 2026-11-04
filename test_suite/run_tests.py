@@ -3,7 +3,7 @@ import subprocess, os, sys, json
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SUITE = os.path.join(ROOT, "test_suite")
-EXE = os.path.join(ROOT, "dap.exe")
+EXE = os.path.join(ROOT, "dap.exe" if sys.platform == "win32" or os.name == "nt" else "dap")
 
 os.makedirs(SUITE, exist_ok=True)
 
@@ -546,6 +546,132 @@ algoritma
     output(jumlahTotal)
 endprogram
 """, "A", "100")
+
+T("K7","K","""
+program Program
+kamus
+    x : integer
+algoritma
+    x <- 5
+    output(x)
+endprogram
+""", "FAIL", "", note="Nama program bernama 'Program' bentrok dengan keyword program case-insensitive")
+
+T("K8","K","""
+Program HitungLuas
+kamus
+    sisi, luas : integer
+algoritma
+    sisi <- 5
+    luas <- sisi * sisi
+    output(luas)
+endprogram
+""", "A", "25", note="PascalCase header dan nama program")
+
+T("K9","K","""
+program K9
+kamus
+    i : integer
+    x : integer
+algoritma
+    x <- 10
+    For i <- 1 To 2 Do
+        Output(i)
+    EndFor
+    If x > 5 Then
+        Output(x)
+    EndIf
+endprogram
+""", "A", "1\n2\n10", note="Control flow keywords dalam PascalCase")
+
+T("K10","K","""
+program K10
+kamus
+    a, b : integer
+    c : boolean
+algoritma
+    a <- 10 DIV 3
+    b <- 10 Mod 3
+    c <- Not False And (a > 0 Or b > 0)
+    output(a)
+    output(b)
+    output(c)
+endprogram
+""", "A", "3\n1\ntrue", note="Operator aritmatika & logika case-insensitive (UPPERCASE & PascalCase)")
+
+T("K11","K","""
+program K11
+kamus
+    i : Integer
+    r : REAL
+    b : Boolean
+    c : Character
+algoritma
+    i <- 10
+    r <- 2.5
+    b <- True
+    c <- 'X'
+    output(i)
+    output(r)
+    output(b)
+    output(c)
+endprogram
+""", "A", "10\n2.5000000\ntrue\nX", note="Tipe data primitif case-insensitive (PascalCase & UPPERCASE)")
+
+T("K12","K","""
+program K12
+kamus
+    b1, b2, b3, b4 : boolean
+algoritma
+    b1 <- True
+    b2 <- FALSE
+    b3 <- Benar
+    b4 <- SALAH
+    output(b1)
+    output(b2)
+    output(b3)
+    output(b4)
+endprogram
+""", "A", "true\nfalse\ntrue\nfalse", note="Literal boolean bahasa Inggris dan Indonesia case-insensitive")
+
+T("K13","K","""
+program K13
+kamus
+    x : integer
+algoritma
+    x <- 99
+    Tulis(x)
+endprogram
+""", "A", "99", note="Kata kunci I/O bahasa Indonesia case-insensitive (Tulis)")
+
+T("K14","K","""
+program K14
+kamus
+    Program : integer
+algoritma
+    Program <- 10
+    output(Program)
+endprogram
+""", "FAIL", "", note="Variabel bernama 'Program' bentrok dengan keyword program case-insensitive")
+
+T("K15","K","""
+program K15
+kamus
+    nilaiUjian : integer
+algoritma
+    NilaiUjian <- 85
+    output(NilaiUjian)
+endprogram
+""", "FAIL", "", note="Nama variabel case-sensitive (NilaiUjian != nilaiUjian)")
+
+T("K16","K","""
+program K16
+kamus
+    const MAX_VAL : integer = 100
+algoritma
+    output(MAX_VAL)
+endprogram
+""", "A", "100", note="Identifier konstanta UPPERCASE")
 
 # ================= KATEGORI L =================
 T("L1","L","""

@@ -1,0 +1,13 @@
+program K12
+kamus
+    b1, b2, b3, b4 : boolean
+algoritma
+    b1 <- True
+    b2 <- FALSE
+    b3 <- Benar
+    b4 <- SALAH
+    output(b1)
+    output(b2)
+    output(b3)
+    output(b4)
+endprogram

@@ -1,1 +1,4 @@
 *.exe
+dap-linux-amd64
+*.b64.txt
+alpro/
