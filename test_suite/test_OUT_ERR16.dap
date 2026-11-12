@@ -1,0 +1,7 @@
+program OUT_ERR16
+kamus
+    x, y : integer
+algoritma
+    x <- 10
+    output(x, y)
+endprogram

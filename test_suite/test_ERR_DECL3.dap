@@ -1,0 +1,7 @@
+program ERR_DECL3
+kamus
+    x : integer
+    x : real
+algoritma
+    x <- 1
+endprogram

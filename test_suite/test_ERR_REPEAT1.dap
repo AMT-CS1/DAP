@@ -1,0 +1,9 @@
+program ERR_REPEAT1
+kamus
+    x : integer
+algoritma
+    x <- 0
+    repeat
+        x <- x + 1
+    until x
+endprogram

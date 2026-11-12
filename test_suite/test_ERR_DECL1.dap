@@ -1,0 +1,6 @@
+program ERR_DECL1
+kamus
+    constant N : integer = 5
+algoritma
+    N <- 10
+endprogram

@@ -1,0 +1,8 @@
+program OUT5
+kamus
+    x, y : integer
+algoritma
+    x <- 10
+    y <- 5
+    output(x + y, x * y, x - y)
+endprogram

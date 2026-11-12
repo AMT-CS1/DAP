@@ -1,0 +1,9 @@
+program ERR_IF1
+kamus
+    x : integer
+algoritma
+    x <- 10
+    if x then
+        output(x)
+    endif
+endprogram

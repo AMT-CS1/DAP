@@ -1,0 +1,6 @@
+program OUT_ERR17
+kamus
+    x : integer
+algoritma
+    output("halo)
+endprogram

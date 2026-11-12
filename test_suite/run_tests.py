@@ -1110,6 +1110,660 @@ algoritma
 endprogram
 """, "A", "C", stdin="77", note="skenario nyata kalkulator nilai")
 
+T("INT6","INTERAKSI","""
+program INT6
+kamus
+    x, y, z : integer
+algoritma
+    x <- 1
+    y <- 2
+    z <- 3
+    output(x, y)
+    output(z)
+endprogram
+""", "A", "1 2\n3", note="multi-arg output sebaris dipisah spasi, newline di akhir output statement")
+
+# ================= KATEGORI OUT (MULTI-ARG OUTPUT VALID) =================
+T("OUT1","OUT","""
+program OUT1
+kamus
+    a, b, c : integer
+algoritma
+    a <- 1
+    b <- 2
+    c <- 3
+    output(a, b, c)
+endprogram
+""", "A", "1 2 3", note="multi-arg integer dipisah spasi sebaris")
+
+T("OUT2","OUT","""
+program OUT2
+kamus
+    n : integer
+    r : real
+    b : boolean
+algoritma
+    n <- 100
+    r <- 3.14
+    b <- true
+    output("Total:", n, r, b)
+endprogram
+""", "A", "Total: 100 3.1400000 true", note="multi-arg tipe campuran (string, int, real, bool)")
+
+T("OUT3","OUT","""
+program OUT3
+kamus
+    a, b, c, d, e : integer
+algoritma
+    a <- 1
+    b <- 2
+    c <- 3
+    d <- 4
+    e <- 5
+    output(a, b)
+    output(c, d)
+    output(e)
+endprogram
+""", "A", "1 2\n3 4\n5", note="beberapa pemanggilan output berurutan")
+
+T("OUT4","OUT","""
+program OUT4
+kamus
+    x, y : integer
+algoritma
+    x <- 10
+    y <- 20
+    tulis(x, y)
+    tulis(x + y)
+endprogram
+""", "A", "10 20\n30", note="alias bahasa Indonesia tulis()")
+
+T("OUT5","OUT","""
+program OUT5
+kamus
+    x, y : integer
+algoritma
+    x <- 10
+    y <- 5
+    output(x + y, x * y, x - y)
+endprogram
+""", "A", "15 50 5", note="ekspresi aritmatika kompleks dalam output")
+
+T("OUT6","OUT","""
+program OUT6
+kamus
+    s1, s2 : string
+algoritma
+    s1 <- "Halo"
+    s2 <- "Dunia"
+    output(s1, s2)
+endprogram
+""", "A", "Halo Dunia", note="multi-arg string")
+
+# ================= KATEGORI OUT_ERR (KASUS ERROR & BRUTEFORCE SINTAKS) =================
+T("OUT_ERR1","OUT_ERR","""
+program OUT_ERR1
+kamus
+    x : integer
+algoritma
+    x <- 1
+    output(x, )
+endprogram
+""", "FAIL", "", note="trailing comma tanpa ekspresi")
+
+T("OUT_ERR2","OUT_ERR","""
+program OUT_ERR2
+kamus
+    x, y : integer
+algoritma
+    x <- 1
+    y <- 2
+    output(x, y
+endprogram
+""", "B", "right parentheses is missing", note="kurung tutup hilang")
+
+T("OUT_ERR3","OUT_ERR","""
+program OUT_ERR3
+kamus
+    x, y : integer
+algoritma
+    x <- 1
+    y <- 2
+    output x, y)
+endprogram
+""", "FAIL", "", note="kurung buka hilang tapi ada kurung tutup")
+
+T("OUT_ERR4","OUT_ERR","""
+program OUT_ERR4
+kamus
+    x, y : integer
+algoritma
+    x <- 1
+    y <- 2
+    output(x; y)
+endprogram
+""", "FAIL", "", note="pemisah titik-koma bukan koma")
+
+T("OUT_ERR5","OUT_ERR","""
+program OUT_ERR5
+kamus
+    x, y : integer
+algoritma
+    x <- 1
+    y <- 2
+    output(x: y)
+endprogram
+""", "FAIL", "", note="karakter titik dua dalam argumen output")
+
+T("OUT_ERR6","OUT_ERR","""
+program OUT_ERR6
+kamus
+    x, y : integer
+algoritma
+    x <- 1
+    y <- 2
+    output(x <- y)
+endprogram
+""", "FAIL", "", note="assignment di dalam pemanggilan output")
+
+T("OUT_ERR7","OUT_ERR","""
+program OUT_ERR7
+kamus
+    x, y : integer
+algoritma
+    x <- 1
+    y <- 2
+    output(x,, y)
+endprogram
+""", "FAIL", "", note="koma ganda antar argumen")
+
+T("OUT_ERR8","OUT_ERR","""
+program OUT_ERR8
+kamus
+    x : integer
+algoritma
+    output()
+endprogram
+""", "FAIL", "", note="argumen kosong")
+
+T("OUT_ERR9","OUT_ERR","""
+program OUT_ERR9
+kamus
+    x, y : integer
+algoritma
+    x <- 1
+    y <- 2
+    output[x, y]
+endprogram
+""", "FAIL", "", note="kurung siku bukan kurung bulat")
+
+T("OUT_ERR10","OUT_ERR","""
+program OUT_ERR10
+kamus
+    x : integer
+algoritma
+    output(x, varGaib)
+endprogram
+""", "B", "is not defined", note="variabel tidak terdefinisi dalam output")
+
+T("OUT_ERR11","OUT_ERR","""
+program OUT_ERR11
+kamus
+    x : integer
+algoritma
+    x <- 5
+    output(x + )
+endprogram
+""", "FAIL", "", note="operator menggantung tanpa operan kanan")
+
+T("OUT_ERR12","OUT_ERR","""
+program OUT_ERR12
+kamus
+    x, y : integer
+algoritma
+    x <- 5
+    y <- 2
+    output(x * * y)
+endprogram
+""", "FAIL", "", note="operator ganda tidak valid")
+
+T("OUT_ERR13","OUT_ERR","""
+program OUT_ERR13
+kamus
+    r : real
+algoritma
+    r <- 3.5
+    output(r div 2)
+endprogram
+""", "B", "Illegal operation for real type", note="operasi div pada real")
+
+T("OUT_ERR14","OUT_ERR","""
+program OUT_ERR14
+kamus
+    a, b : integer
+algoritma
+    a <- 10
+    b <- 0
+    output(a div b)
+endprogram
+""", "B", "Illegal division by zero", note="runtime error pembagian nol dalam output")
+
+T("OUT_ERR15","OUT_ERR","""
+program OUT_ERR15
+kamus
+    a, b : integer
+algoritma
+    a <- 10
+    b <- 0
+    output(a mod b)
+endprogram
+""", "B", "Illegal modulo division by zero", note="runtime error modulo nol dalam output")
+
+T("OUT_ERR16","OUT_ERR","""
+program OUT_ERR16
+kamus
+    x, y : integer
+algoritma
+    x <- 10
+    output(x, y)
+endprogram
+""", "B", "Illegal access to uninitialized variable", note="runtime error akses variabel belum diinisialisasi")
+
+T("OUT_ERR17","OUT_ERR","""
+program OUT_ERR17
+kamus
+    x : integer
+algoritma
+    output("halo)
+endprogram
+""", "FAIL", "", note="string literal tanpa kutip penutup")
+
+T("OUT_ERR18","OUT_ERR","""
+program OUT_ERR18
+kamus
+    x : integer
+algoritma
+    x <- 5
+    output(x and 5)
+endprogram
+""", "FAIL", "", note="operator boolean dengan operan integer")
+
+# ================= KATEGORI ERR_PROG (STRUKTUR PROGRAM) =================
+T("ERR_PROG1","ERR_PROG","""
+kamus
+    x : integer
+algoritma
+    x <- 1
+endprogram
+""", "B", "Missing program header", note="header program hilang")
+
+T("ERR_PROG2","ERR_PROG","""
+program
+kamus
+    x : integer
+algoritma
+    x <- 1
+endprogram
+""", "B", "Missing program name", note="nama program hilang")
+
+T("ERR_PROG3","ERR_PROG","""
+program P
+algoritma
+    x <- 1
+endprogram
+""", "B", "Missing data section", note="bagian kamus/data hilang")
+
+T("ERR_PROG4","ERR_PROG","""
+program P
+kamus
+    x : integer
+    x <- 1
+endprogram
+""", "B", "Missing code section", note="bagian algoritma hilang")
+
+# ================= KATEGORI ERR_DECL (DEKLARASI VARIABEL & KONSTANTA) =================
+T("ERR_DECL1","ERR_DECL","""
+program ERR_DECL1
+kamus
+    constant N : integer = 5
+algoritma
+    N <- 10
+endprogram
+""", "B", "Not a variable N", note="assignment ulang pada konstanta")
+
+T("ERR_DECL2","ERR_DECL","""
+program ERR_DECL2
+kamus
+    x : float
+algoritma
+    x <- 1.5
+endprogram
+""", "FAIL", "", note="tipe data tidak valid / deprecated (float)")
+
+T("ERR_DECL3","ERR_DECL","""
+program ERR_DECL3
+kamus
+    x : integer
+    x : real
+algoritma
+    x <- 1
+endprogram
+""", "B", "already declared", note="deklarasi variabel duplikat tipe berbeda")
+
+# ================= KATEGORI ERR_INPUT (PERINTAH INPUT) =================
+T("ERR_INPUT1","ERR_INPUT","""
+program ERR_INPUT1
+kamus
+    x : integer
+algoritma
+    input(x + 1)
+endprogram
+""", "FAIL", "", note="ekspresi matematika sebagai target input")
+
+T("ERR_INPUT2","ERR_INPUT","""
+program ERR_INPUT2
+kamus
+    x : integer
+algoritma
+    input(x
+endprogram
+""", "B", "right parentheses is missing", note="kurung tutup input hilang")
+
+T("ERR_INPUT3","ERR_INPUT","""
+program ERR_INPUT3
+kamus
+    x : integer
+algoritma
+    input(varGaib)
+endprogram
+""", "B", "Not a variable varGaib", note="target input variabel tidak terdaftar")
+
+# ================= KATEGORI ERR_ASSG (PENUGASAN / ASSIGNMENT) =================
+T("ERR_ASSG1","ERR_ASSG","""
+program ERR_ASSG1
+kamus
+    x : integer
+algoritma
+    x <- "teks"
+endprogram
+""", "B", "Type mismatch in assignment", note="assign string ke integer")
+
+T("ERR_ASSG2","ERR_ASSG","""
+program ERR_ASSG2
+kamus
+    x : integer
+algoritma
+    x <- true
+endprogram
+""", "B", "Type mismatch in assignment", note="assign boolean ke integer")
+
+T("ERR_ASSG3","ERR_ASSG","""
+program ERR_ASSG3
+kamus
+    b : boolean
+algoritma
+    b <- 10
+endprogram
+""", "B", "Type mismatch in assignment", note="assign integer ke boolean")
+
+T("ERR_ASSG4","ERR_ASSG","""
+program ERR_ASSG4
+kamus
+    x, y : integer
+algoritma
+    x <- 1
+    y := 2
+endprogram
+""", "B", "Don't mix assignment styles", note="mencampur gaya assignment <- dan :=")
+
+# ================= KATEGORI ERR_IF (PERCABANGAN IF) =================
+T("ERR_IF1","ERR_IF","""
+program ERR_IF1
+kamus
+    x : integer
+algoritma
+    x <- 10
+    if x then
+        output(x)
+    endif
+endprogram
+""", "B", "Non boolean condition", note="kondisi if berupa integer")
+
+T("ERR_IF2","ERR_IF","""
+program ERR_IF2
+kamus
+    x : integer
+algoritma
+    x <- 10
+    if x > 0
+        output(x)
+    endif
+endprogram
+""", "B", "then expected", note="kata kunci then hilang")
+
+T("ERR_IF3","ERR_IF","""
+program ERR_IF3
+kamus
+    x : integer
+algoritma
+    x <- 10
+    if x > 0 then
+        output(x)
+endprogram
+""", "B", "endif expected", note="kata kunci penutup endif hilang")
+
+T("ERR_IF4","ERR_IF","""
+program ERR_IF4
+kamus
+    x : integer
+algoritma
+    x <- 10
+    if x > 0 then
+        output(x)
+    else
+        output(0)
+    else
+        output(-1)
+    endif
+endprogram
+""", "B", "endif expected", note="klausa else ganda")
+
+# ================= KATEGORI ERR_WHILE (PERULANGAN WHILE) =================
+T("ERR_WHILE1","ERR_WHILE","""
+program ERR_WHILE1
+kamus
+    x : integer
+algoritma
+    x <- 10
+    while x do
+        x <- x - 1
+    endwhile
+endprogram
+""", "B", "Non boolean condition", note="kondisi while berupa integer")
+
+T("ERR_WHILE2","ERR_WHILE","""
+program ERR_WHILE2
+kamus
+    x : integer
+algoritma
+    while true do
+        output(1)
+    endwhile
+endprogram
+""", "B", "Infinite loop!", note="kondisi while literal true (infinite loop terdeteksi)")
+
+T("ERR_WHILE3","ERR_WHILE","""
+program ERR_WHILE3
+kamus
+    x : integer
+algoritma
+    while false do
+        output(1)
+    endwhile
+endprogram
+""", "B", "Loop never entered!", note="kondisi while literal false (dead code)")
+
+T("ERR_WHILE4","ERR_WHILE","""
+program ERR_WHILE4
+kamus
+    x : integer
+algoritma
+    x <- 5
+    while x > 0
+        x <- x - 1
+    endwhile
+endprogram
+""", "B", "do expected", note="kata kunci do hilang pada while")
+
+T("ERR_WHILE5","ERR_WHILE","""
+program ERR_WHILE5
+kamus
+    x : integer
+algoritma
+    x <- 5
+    while x > 0 do
+        x <- x - 1
+endprogram
+""", "B", "endwhile expected", note="kata kunci penutup endwhile hilang")
+
+# ================= KATEGORI ERR_FOR (PERULANGAN FOR) =================
+T("ERR_FOR1","ERR_FOR","""
+program ERR_FOR1
+kamus
+    r : real
+algoritma
+    for r <- 1.0 to 5.0 do
+        output(r)
+    endfor
+endprogram
+""", "B", "Forloop iterator must be integer", note="iterator for bertipe real")
+
+T("ERR_FOR2","ERR_FOR","""
+program ERR_FOR2
+kamus
+    i : integer
+algoritma
+    for i <- 1 do
+        output(i)
+    endfor
+endprogram
+""", "FAIL", "", note="kata kunci to hilang pada for")
+
+T("ERR_FOR3","ERR_FOR","""
+program ERR_FOR3
+kamus
+    i : integer
+algoritma
+    for i <- 1 to 5 do
+        output(i)
+endprogram
+""", "B", "endfor expected", note="kata kunci penutup endfor hilang")
+
+# ================= KATEGORI ERR_REPEAT (PERULANGAN REPEAT-UNTIL) =================
+T("ERR_REPEAT1","ERR_REPEAT","""
+program ERR_REPEAT1
+kamus
+    x : integer
+algoritma
+    x <- 0
+    repeat
+        x <- x + 1
+    until x
+endprogram
+""", "B", "Non boolean condition", note="kondisi until berupa integer")
+
+T("ERR_REPEAT2","ERR_REPEAT","""
+program ERR_REPEAT2
+kamus
+    x : integer
+algoritma
+    repeat
+        output(1)
+    until true
+endprogram
+""", "B", "Useless repeat-until", note="kondisi until literal true")
+
+T("ERR_REPEAT3","ERR_REPEAT","""
+program ERR_REPEAT3
+kamus
+    x : integer
+algoritma
+    repeat
+        output(1)
+    until false
+endprogram
+""", "B", "Infinite repeat-until loop", note="kondisi until literal false (infinite loop)")
+
+T("ERR_REPEAT4","ERR_REPEAT","""
+program ERR_REPEAT4
+kamus
+    x : integer
+algoritma
+    repeat
+        output(1)
+endprogram
+""", "B", "until expected", note="kata kunci until hilang")
+
+# ================= KATEGORI ERR_CASE (PERCABANGAN CASE/SWITCH) =================
+T("ERR_CASE1","ERR_CASE","""
+program ERR_CASE1
+kamus
+    x : integer
+algoritma
+    case 5 of
+    1 :
+        output(1)
+    endcase
+endprogram
+""", "B", "Useless switch/case, has constant expression", note="ekspresi case berupa konstanta literal")
+
+T("ERR_CASE2","ERR_CASE","""
+program ERR_CASE2
+kamus
+    x : integer
+algoritma
+    x <- 2
+    case x of
+    'a' :
+        output(1)
+    endcase
+endprogram
+""", "B", "mismatch case label type", note="tipe label case tidak cocok dengan pemilih")
+
+T("ERR_CASE3","ERR_CASE","""
+program ERR_CASE3
+kamus
+    x : integer
+algoritma
+    x <- 2
+    case x of
+    1 :
+        output(1)
+endprogram
+""", "B", "endcase expected", note="kata kunci penutup endcase hilang")
+
+# ================= KATEGORI ERR_STYLE (GAYA PENULISAN & INDENTASI) =================
+T("ERR_STYLE1","ERR_STYLE","""
+program ERR_STYLE1
+// comment slash
+{ comment curly }
+kamus
+    x : integer
+algoritma
+    x <- 1
+endprogram
+""", "B", "Don't mix", note="mencampur gaya komentar // dan {}")
+
+T("ERR_STYLE2","ERR_STYLE","""
+program ERR_STYLE2
+kamus
+    x : integer
+algoritma
+    x <- 1
+      output(x)
+endprogram
+""", "B", "Inconsistent block indentation", note="indentasi blok tidak konsisten")
+
 # =====================================================================
 # runner
 # =====================================================================

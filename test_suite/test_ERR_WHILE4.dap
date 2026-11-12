@@ -1,0 +1,9 @@
+program ERR_WHILE4
+kamus
+    x : integer
+algoritma
+    x <- 5
+    while x > 0
+        x <- x - 1
+    endwhile
+endprogram

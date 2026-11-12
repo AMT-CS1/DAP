@@ -1,0 +1,13 @@
+program OUT3
+kamus
+    a, b, c, d, e : integer
+algoritma
+    a <- 1
+    b <- 2
+    c <- 3
+    d <- 4
+    e <- 5
+    output(a, b)
+    output(c, d)
+    output(e)
+endprogram

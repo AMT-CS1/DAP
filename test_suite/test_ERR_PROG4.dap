@@ -1,0 +1,5 @@
+program P
+kamus
+    x : integer
+    x <- 1
+endprogram

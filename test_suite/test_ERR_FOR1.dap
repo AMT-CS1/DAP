@@ -1,0 +1,8 @@
+program ERR_FOR1
+kamus
+    r : real
+algoritma
+    for r <- 1.0 to 5.0 do
+        output(r)
+    endfor
+endprogram

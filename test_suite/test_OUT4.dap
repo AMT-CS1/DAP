@@ -1,0 +1,9 @@
+program OUT4
+kamus
+    x, y : integer
+algoritma
+    x <- 10
+    y <- 20
+    tulis(x, y)
+    tulis(x + y)
+endprogram

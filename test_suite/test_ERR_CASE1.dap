@@ -1,0 +1,9 @@
+program ERR_CASE1
+kamus
+    x : integer
+algoritma
+    case 5 of
+    1 :
+        output(1)
+    endcase
+endprogram

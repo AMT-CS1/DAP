@@ -1,0 +1,8 @@
+program OUT_ERR2
+kamus
+    x, y : integer
+algoritma
+    x <- 1
+    y <- 2
+    output(x, y
+endprogram

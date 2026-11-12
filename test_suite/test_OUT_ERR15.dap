@@ -1,0 +1,8 @@
+program OUT_ERR15
+kamus
+    a, b : integer
+algoritma
+    a <- 10
+    b <- 0
+    output(a mod b)
+endprogram

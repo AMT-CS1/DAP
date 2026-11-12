@@ -1,0 +1,9 @@
+program OUT1
+kamus
+    a, b, c : integer
+algoritma
+    a <- 1
+    b <- 2
+    c <- 3
+    output(a, b, c)
+endprogram

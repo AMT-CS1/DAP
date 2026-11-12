@@ -1,0 +1,11 @@
+program OUT2
+kamus
+    n : integer
+    r : real
+    b : boolean
+algoritma
+    n <- 100
+    r <- 3.14
+    b <- true
+    output("Total:", n, r, b)
+endprogram

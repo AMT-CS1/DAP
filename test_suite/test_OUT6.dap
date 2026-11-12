@@ -1,0 +1,8 @@
+program OUT6
+kamus
+    s1, s2 : string
+algoritma
+    s1 <- "Halo"
+    s2 <- "Dunia"
+    output(s1, s2)
+endprogram

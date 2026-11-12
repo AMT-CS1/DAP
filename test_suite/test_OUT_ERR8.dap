@@ -1,0 +1,6 @@
+program OUT_ERR8
+kamus
+    x : integer
+algoritma
+    output()
+endprogram

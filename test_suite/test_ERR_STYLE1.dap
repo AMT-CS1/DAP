@@ -1,0 +1,8 @@
+program ERR_STYLE1
+// comment slash
+{ comment curly }
+kamus
+    x : integer
+algoritma
+    x <- 1
+endprogram

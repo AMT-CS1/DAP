@@ -1,0 +1,8 @@
+program ERR_FOR2
+kamus
+    i : integer
+algoritma
+    for i <- 1 do
+        output(i)
+    endfor
+endprogram

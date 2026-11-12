@@ -1,0 +1,6 @@
+program
+kamus
+    x : integer
+algoritma
+    x <- 1
+endprogram

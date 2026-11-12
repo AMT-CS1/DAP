@@ -72,6 +72,8 @@ const (
 	OUTB   = 83  // putbool(pop())
 	OUTR   = 84  // putreal(pop()) 20241116
 	OUTS   = 85  // putstring(pop()) 20241116
+	OUTNL  = 86  // putnewline()
+	OUTSP  = 87  // putspace()
 	RLT    = 91  // stack[TOP-1] = rmem[TOP-1] < rmem[TOP]; TOP--
 	RLEQ   = 92  // stack[TOP-1] = rmem[TOP-1] <= rmem[TOP]; TOP--
 	RGT    = 93  // stack[TOP-1] = rmem[TOP-1] > rmem[TOP]; TOP--
@@ -564,6 +566,10 @@ func Wemulate(srcFile string, steps int, chint chan<- os.Signal, chlog chan<- []
 			case OUTS:
 				trace = append(trace, tagVal{'O', stack[top]})
 				top--
+			case OUTNL:
+				trace = append(trace, tagVal{'O', "\n"})
+			case OUTSP:
+				trace = append(trace, tagVal{'O', " "})
 			case SAVEIP:
 				top++
 				stack[top] = iP
@@ -604,7 +610,6 @@ func Emulate(steps int) {
 	step := 0
 	lastline := 0
 	lastcol := 0
-	charline := false
 	errcount = 0
 	// rLocked = rTop  // lock some real space
 	// log.Printf("DAP -- emulate %v %v", rLocked, rTop)
@@ -819,37 +824,24 @@ func Emulate(steps int) {
 				sTop++
 			}
 		case OUTI:
-			if charline {
-				charline = false
-				fmt.Println()
-			}
-			fmt.Println(stack[top])
+			fmt.Print(stack[top])
 			top--
 		case OUTC:
 			fmt.Printf("%c", stack[top])
-			charline = true
 			top--
 		case OUTB:
-			if charline {
-				charline = false
-				fmt.Println()
-			}
-			fmt.Println(stack[top] != 0)
+			fmt.Print(stack[top] != 0)
 			top--
 		case OUTR:
-			if charline {
-				charline = false
-				fmt.Println()
-			}
-			fmt.Printf("%.7f\n", rmem[top])
+			fmt.Printf("%.7f", rmem[top])
 			top--
 		case OUTS:
-			if charline {
-				charline = false
-				fmt.Println()
-			}
-			fmt.Println(smem[stack[top]])
+			fmt.Print(smem[stack[top]])
 			top--
+		case OUTNL:
+			fmt.Println()
+		case OUTSP:
+			fmt.Print(" ")
 		case SAVEIP:
 			top++
 			stack[top] = iP
@@ -932,6 +924,8 @@ var sym2num = map[string]int{
 	"OUTB":   83,
 	"OUTR":   84,
 	"OUTS":   85,
+	"OUTNL":  86,
+	"OUTSP":  87,
 	"RLT":    91,
 	"RLEQ":   92,
 	"RGT":    93,
@@ -1070,6 +1064,8 @@ var tok2sym = map[string]string{
 	"$OUTB":   "OUTB",
 	"$OUTR":   "OUTR",
 	"$OUTS":   "OUTS",
+	"$OUTNL":  "OUTNL",
+	"$OUTSP":  "OUTSP",
 	"$SAVEIP": "SAVEIP",
 	"$COND":   "COND",
 	"$NCOND":  "NCOND",
@@ -1254,6 +1250,14 @@ func GenOut(t string, v string) {
 		s4041 = append(s4041, "OUTS")
 	}
 	// log.Printf("OUT generated %v:%v", t, v)
+}
+
+func GenOutNL() {
+	s4041 = append(s4041, "OUTNL")
+}
+
+func GenOutSp() {
+	s4041 = append(s4041, "OUTSP")
 }
 
 var ilabel = 1000

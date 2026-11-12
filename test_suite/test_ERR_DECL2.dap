@@ -1,0 +1,6 @@
+program ERR_DECL2
+kamus
+    x : float
+algoritma
+    x <- 1.5
+endprogram

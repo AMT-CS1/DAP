@@ -1,0 +1,8 @@
+program ERR_WHILE3
+kamus
+    x : integer
+algoritma
+    while false do
+        output(1)
+    endwhile
+endprogram

@@ -1,0 +1,6 @@
+program ERR_INPUT3
+kamus
+    x : integer
+algoritma
+    input(varGaib)
+endprogram

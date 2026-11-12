@@ -1,0 +1,7 @@
+program ERR_REPEAT4
+kamus
+    x : integer
+algoritma
+    repeat
+        output(1)
+endprogram

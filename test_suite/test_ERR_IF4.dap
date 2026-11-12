@@ -1,0 +1,13 @@
+program ERR_IF4
+kamus
+    x : integer
+algoritma
+    x <- 10
+    if x > 0 then
+        output(x)
+    else
+        output(0)
+    else
+        output(-1)
+    endif
+endprogram

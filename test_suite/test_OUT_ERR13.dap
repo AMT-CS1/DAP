@@ -1,0 +1,7 @@
+program OUT_ERR13
+kamus
+    r : real
+algoritma
+    r <- 3.5
+    output(r div 2)
+endprogram

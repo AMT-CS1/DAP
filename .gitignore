@@ -1,4 +1,6 @@
+/dap
 *.exe
 dap-linux-amd64
-*.b64.txt
+*.base64.txt
+dap_base64.txt
 alpro/

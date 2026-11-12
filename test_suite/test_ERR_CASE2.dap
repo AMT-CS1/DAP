@@ -1,0 +1,10 @@
+program ERR_CASE2
+kamus
+    x : integer
+algoritma
+    x <- 2
+    case x of
+    'a' :
+        output(1)
+    endcase
+endprogram

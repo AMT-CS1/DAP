@@ -877,10 +877,18 @@ func output_stmt(lvl int) {
 	if has_lpar {
 		token.Next()
 	}
-	expression_list(em.GenOut)
+	first := true
+	expression_list(func(t, v string) {
+		if !first {
+			em.GenOutSp()
+		}
+		first = false
+		em.GenOut(t, v)
+	})
 	if has_lpar {
 		expect("$RIGHTPAR", "right parentheses is missing")
 	}
+	em.GenOutNL()
 }
 
 /* for assignment to/downto expression do code_list endfor

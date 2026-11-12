@@ -1,0 +1,7 @@
+program ERR_ASSG4
+kamus
+    x, y : integer
+algoritma
+    x <- 1
+    y := 2
+endprogram

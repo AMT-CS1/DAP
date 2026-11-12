@@ -1,0 +1,6 @@
+program ERR_ASSG3
+kamus
+    b : boolean
+algoritma
+    b <- 10
+endprogram

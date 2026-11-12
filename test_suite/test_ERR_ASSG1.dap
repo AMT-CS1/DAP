@@ -1,0 +1,6 @@
+program ERR_ASSG1
+kamus
+    x : integer
+algoritma
+    x <- "teks"
+endprogram

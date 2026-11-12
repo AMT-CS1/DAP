@@ -1,0 +1,10 @@
+program INT6
+kamus
+    x, y, z : integer
+algoritma
+    x <- 1
+    y <- 2
+    z <- 3
+    output(x, y)
+    output(z)
+endprogram
