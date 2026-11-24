@@ -4,3 +4,5 @@ dap-linux-amd64
 *.base64.txt
 dap_base64.txt
 alpro/
+dap_base64.txt
+dap

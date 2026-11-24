@@ -150,7 +150,7 @@ func main() {
 		os.Exit(0)
 	}
 
-	log.Printf("*** DAP pseudocode emulator, v. 2025.09.05")
+	log.Printf("*** DAP pseudocode emulator, v. izzan-2026.11.24")
 	if dapSource {
 		token := scanner.NewToken(dapSrcFile)
 		parser.Compile(token)
